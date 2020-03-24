@@ -1,0 +1,16 @@
+# baseURI: http://reference.data.gov.uk/technical-registry/dataview/mssql
+# imports: http://reference.data.gov.uk/technical-registry/mssql
+# imports: http://reference.data.gov.uk/technical-registry/schema/mssql
+
+@prefix db: <http://reference.data.gov.uk/technical-registry/mssql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://reference.data.gov.uk/technical-registry/schema/mssql#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://reference.data.gov.uk/technical-registry/dataview/mssql>
+  rdf:type owl:Ontology ;
+  owl:imports <http://reference.data.gov.uk/technical-registry/mssql> ;
+  owl:imports <http://reference.data.gov.uk/technical-registry/schema/mssql> ;
+.

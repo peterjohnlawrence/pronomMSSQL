@@ -1,0 +1,20 @@
+docker pull mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04
+
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=SQLServer8351"  -p 1433:1433 --name mssql  -d mcr.microsoft.com/mssql/server:2019-GA-ubuntu-16.04 
+
+docker exec -it mssql /opt/mssql-tools/bin/sqlcmd   -S localhost -U SA -P "SQLServer8351"   -Q "ALTER LOGIN SA WITH PASSWORD='SQLServer8351'"
+
+docker exec -it mssql "bash"
+
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "SQLServer8351"
+
+Squirrel/JDBC: MSSQLServer JDBC Driver
+Alias: Pronom
+URL:  jdbc:sqlserver://localhost:1433;databaseName=tempdb
+User name:  SA
+Password: SQLServer8351
+
+
+Move backup to Docker image
+docker cp "G:\My Drive\Inova8\Customers\Nexify\Pronom\System Documentation\PRONOM6_backup_2019_12_05_232317_1402838.bak" mssql:/var/opt/mssql/data
+Import backup: https://stackoverflow.com/questions/1535914/import-bak-file-to-a-database-in-sql-server

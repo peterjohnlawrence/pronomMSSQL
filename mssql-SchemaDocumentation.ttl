@@ -1,0 +1,3752 @@
+# baseURI: http://reference.data.gov.uk/schemaDocumentation/mssql
+# imports: http://inova8.com/wordmodel/
+# imports: http://reference.data.gov.uk/technical-registry/inverseSschema/mssql
+# imports: http://reference.data.gov.uk/technical-registry/schema/mssql
+
+@prefix : <http://reference.data.gov.uk/technical-registry/schema/mssql#> .
+@prefix mssql: <http://reference.data.gov.uk/technical-registry/schema/mssql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://reference.data.gov.uk/schemaDocumentation/mssql>
+  rdf:type owl:Ontology ;
+  owl:imports <http://inova8.com/wordmodel/> ;
+  owl:imports <http://reference.data.gov.uk/technical-registry/inverseSschema/mssql> ;
+  owl:imports <http://reference.data.gov.uk/technical-registry/schema/mssql> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+mssql:dbo_actor_history
+  rdfs:comment "" ;
+.
+mssql:dbo_actor_history_actor_history_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actor_history_actor_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actor_history_event_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actor_history_event_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actor_types
+  rdfs:comment "" ;
+.
+mssql:dbo_actor_types_actor_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actor_types_actor_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors
+  rdfs:comment "This entity models an individual or organisation which performs a defined role with respect to another entity." ;
+.
+mssql:dbo_actors_actor_type_id
+  rdfs:comment "Type of actor" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_address_text
+  rdfs:comment "Full postal contact address for the actor" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_contact_email_text
+  rdfs:comment "Contact email address" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_country_code_text
+  rdfs:comment "Country element of the address" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_job_title_text
+  rdfs:comment "Job title of an individual having a cited role" ;
+.
+mssql:dbo_actors_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_name_text
+  rdfs:comment "Name of an individual having a cited role" ;
+.
+mssql:dbo_actors_organisation_name_text
+  rdfs:comment "Name of an organisation having a cited role" ;
+.
+mssql:dbo_actors_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_support_website_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_telephone_text
+  rdfs:comment "Full international contact telephone number" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_actors_website_text
+  rdfs:comment "Contact website URL" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_availability
+  rdfs:comment "" ;
+.
+mssql:dbo_availability_availability_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_availability_availability_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_orders
+  rdfs:comment "" ;
+.
+mssql:dbo_byte_orders_byte_order_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_orders_byte_order_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences
+  rdfs:comment "This entity models individual byte sequences which form an internal signature." ;
+.
+mssql:dbo_byte_sequences_big_endian_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_byte_sequence
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_byte_sequence_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_indirect_offset_length
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_indirect_offset_location
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_max_offset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_offset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_position_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_byte_sequences_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_identification_tool_link
+  rdfs:comment "" ;
+.
+mssql:dbo_component_identification_tool_link_component_manifestation_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_identification_tool_link_priority
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_identification_tool_link_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_formats_link
+  rdfs:comment "" ;
+.
+mssql:dbo_component_manifestation_formats_link_component_manifestation_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_formats_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_types
+  rdfs:comment "" ;
+.
+mssql:dbo_component_manifestation_types_component_manifestation_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_types_component_manifestation_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_types_component_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_manifestation_types_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_measurement_tool_link
+  rdfs:comment "" ;
+.
+mssql:dbo_component_measurement_tool_link_component_manifestation_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_measurement_tool_link_priority
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_measurement_tool_link_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_property
+  rdfs:comment "" ;
+.
+mssql:dbo_component_property_component_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_property_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_types
+  rdfs:comment "" ;
+.
+mssql:dbo_component_types_component_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_types_component_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_component_types_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_aliases
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_aliases_alias_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_aliases_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_aliases_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_aliases_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_developers
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_developers_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_developers_developer_id
+  rdfs:comment "Actor responsible for developing the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_documentation_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_documentation_document_id
+  rdfs:comment "Documentation about the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_families
+  rdfs:comment "This entity enables technical components to be grouped into conceptual families." ;
+.
+mssql:dbo_compression_families_description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_families_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_families_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_families_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_family_link
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_family_link_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_family_link_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_compression_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_compression_identifiers_Identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_compression_id
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_ipr_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_ipr_ipr_id
+  rdfs:comment "Intellectual property rights which attach to the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationship_types
+  rdfs:comment "Type of relationship" ;
+.
+mssql:dbo_compression_relationship_types_Inverse_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationship_types_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationship_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationships
+  rdfs:comment "Relationships between entities of the same type are defined using a generic relationship" ;
+.
+mssql:dbo_compression_relationships_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationships_relationship_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationships_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationships_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_relationships_target_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_support
+  rdfs:comment "" ;
+.
+mssql:dbo_compression_support_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_support_support_id
+  rdfs:comment "Actor currently responsible for supporting or maintaining the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types
+  rdfs:comment "This entity models compression algorithms employed by file formats" ;
+.
+mssql:dbo_compression_types_compression_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_compression_name_text
+  rdfs:comment "Preferred name of the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_compression_text
+  rdfs:comment "Description of the main characteristics of the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_lossiness_id
+  rdfs:comment "Identifies whether the algorithm is lossy or lossless" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_note_text
+  rdfs:comment "Informative note about the algorithm" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_puid_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_release_date
+  rdfs:comment "Date on which the algorithm was released" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_withdrawn_date
+  rdfs:comment "Date on which support for the algorithm was, or is due to be, withdrawn" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_compression_types_withdrawn_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_countries
+  rdfs:comment "" ;
+.
+mssql:dbo_countries_country_code_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_countries_country_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_authors
+  rdfs:comment "" ;
+.
+mssql:dbo_document_authors_author_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_authors_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_document_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_document_identifiers_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_document_ipr_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_ipr_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_publishers
+  rdfs:comment "" ;
+.
+mssql:dbo_document_publishers_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_publishers_publisher_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationship_types
+  rdfs:comment "Type of relationship" ;
+.
+mssql:dbo_document_relationship_types_inverse_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationship_types_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationship_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationships
+  rdfs:comment "Relationships between entities of the same type are defined using a generic relationship" ;
+.
+mssql:dbo_document_relationships_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationships_relationship_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationships_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationships_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_relationships_target_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_types
+  rdfs:comment "" ;
+.
+mssql:dbo_document_types_document_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_document_types_document_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents
+  rdfs:comment "" ;
+.
+mssql:dbo_documents_availability_id
+  rdfs:comment "Classification of the availability of the documentation" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_availability_text
+  rdfs:comment "Additional information about the documentation availability" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_display_text
+  rdfs:comment "Bibliographical text to display" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_document_id
+  rdfs:comment "External identifier which applies to the documentation" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_document_note_text
+  rdfs:comment "Informative note about the documentation" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_document_type_id
+  rdfs:comment "Indicates whether the documentation is authoritative, informative or speculative" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_publication_date
+  rdfs:comment "Date of publication" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_documents_title_text
+  rdfs:comment "Title of the documentation" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties
+  rdfs:comment "This entity models items of documentation which relate to another entity." ;
+.
+mssql:dbo_dtproperties_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_lvalue
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_objectid
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_property
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_uvalue
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_dtproperties_version
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding
+  rdfs:comment "This entity models character encodings (character maps ) employed by file formats." ;
+.
+mssql:dbo_encoding_aliases
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_aliases_alias_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_aliases_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_aliases_name_text
+  rdfs:comment "Alias by which the encoding is also known" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_aliases_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_code_page
+  rdfs:comment "Code page for the character set" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_code_unit_width_text
+  rdfs:comment "Width of the code unit in bits" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_developer
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_developer_developer_id
+  rdfs:comment "Actor responsible for developing the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_developer_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_documentation_document_id
+  rdfs:comment "Documentation about the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_documentation_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_encoding_form_width_text
+  rdfs:comment "Width of the encoding form in code units" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_encoding_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_encoding_name_text
+  rdfs:comment "Preferred name of the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_encoding_text
+  rdfs:comment "Description of the main characteristics of the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_families
+  rdfs:comment "This entity enables technical components to be grouped into conceptual families." ;
+.
+mssql:dbo_encoding_families_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_families_family_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_families_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_families_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_family_link
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_family_link_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_family_link_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_encoding_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_encoding_identifiers_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_ipr_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_ipr_ipr_id
+  rdfs:comment "Intellectual property rights which attach to the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_note_text
+  rdfs:comment "Informative note about the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_puid_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationship_types
+  rdfs:comment "Type of relationship" ;
+.
+mssql:dbo_encoding_relationship_types_inverse_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationship_types_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationship_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationships
+  rdfs:comment "Relationships between entities of the same type are defined using a generic relationship" ;
+.
+mssql:dbo_encoding_relationships_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationships_relationship_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationships_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationships_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_relationships_target_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_release_date
+  rdfs:comment "Date on which the encoding was released" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_support
+  rdfs:comment "" ;
+.
+mssql:dbo_encoding_support_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_support_support_id
+  rdfs:comment "Actor currently responsible for supporting or maintaining the encoding" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_withdrawn_date
+  rdfs:comment "Date on which support for the encoding was, or is due to be, withdrawn" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_encoding_withdrawn_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signature_types
+  rdfs:comment "" ;
+.
+mssql:dbo_external_signature_types_signature_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signature_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signatures
+  rdfs:comment "This entity models signatures which are external to the bitstream of a digital object which may be used to identify file formats." ;
+.
+mssql:dbo_external_signatures_external_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signatures_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signatures_signature_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_external_signatures_signature_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments
+  rdfs:comment "" ;
+.
+mssql:dbo_ffsf_fragments_byte_sequence_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_fragment_direction
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_maxoffset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_minoffset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_position_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_sequence_string
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_fragments_subsequence_num
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_shifts
+  rdfs:comment "" ;
+.
+mssql:dbo_ffsf_shifts_byte_name
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_shifts_byte_sequence_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_shifts_byte_shift
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_shifts_subsequence_num
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences
+  rdfs:comment "" ;
+.
+mssql:dbo_ffsf_subsequences_ROW_ID
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_byte_sequence_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_default_shift
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_left_string
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_max_seq_offset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_min_frag_length
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_min_seq_offset
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_right_string
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_sequence_string
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ffsf_subsequences_subsequence_num
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_format_tool_link
+  rdfs:comment "This table links file formats with tools. This tells Technology Watch which tools can be used on which file formats. The priority field is provided so that we can try tools in order." ;
+.
+mssql:dbo_file_format_tool_link_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_format_tool_link_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_format_tool_link_tool_priority
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_format_tool_link_tool_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats
+  rdfs:comment "This entity models the file formats which may be used to encode digital objects." ;
+.
+mssql:dbo_file_formats_binary_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_disclosure_id
+  rdfs:comment "Level of public disclosure provided for the format specification" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_file_format_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_format_name_text
+  rdfs:comment "Preferred name of the format" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_format_text
+  rdfs:comment "Description of the main characteristics of the format" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_note_text
+  rdfs:comment "Informative note about the format" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_puid_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_release_date
+  rdfs:comment "Date on which the format was released" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_withdrawn_date
+  rdfs:comment "Date on which support for the format was, or is due to be, withdrawn" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_file_formats_withdrawn_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_aliases
+  rdfs:comment "" ;
+.
+mssql:dbo_format_aliases_alias_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_aliases_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_aliases_name_text
+  rdfs:comment "Alias by which the format is known" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_aliases_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_byte_order_link
+  rdfs:comment "" ;
+.
+mssql:dbo_format_byte_order_link_byte_order_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_byte_order_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_compression_types
+  rdfs:comment "" ;
+.
+mssql:dbo_format_compression_types_compression_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_compression_types_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_developers
+  rdfs:comment "" ;
+.
+mssql:dbo_format_developers_developer_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_developers_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_disclosures
+  rdfs:comment "" ;
+.
+mssql:dbo_format_disclosures_disclosure_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_disclosures_disclosure_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_format_documentation_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_documentation_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_encodings
+  rdfs:comment "" ;
+.
+mssql:dbo_format_encodings_encoding_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_encodings_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_environment
+  rdfs:comment "" ;
+.
+mssql:dbo_format_environment_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_environment_technical_environment_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_families
+  rdfs:comment "This entity enables technical components to be grouped into conceptual families." ;
+.
+mssql:dbo_format_families_family_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_families_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_families_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_families_parent_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_family_link
+  rdfs:comment "" ;
+.
+mssql:dbo_format_family_link_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_family_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_format_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_format_identifiers_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_internal_signature_link
+  rdfs:comment "" ;
+.
+mssql:dbo_format_internal_signature_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_internal_signature_link_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_format_ipr_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_ipr_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationship_types
+  rdfs:comment "Type of relationship" ;
+.
+mssql:dbo_format_relationship_types_inverse_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationship_types_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationship_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationships
+  rdfs:comment "Relationships between entities of the same type are defined using a generic relationship" ;
+.
+mssql:dbo_format_relationships_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationships_relationship_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationships_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationships_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_relationships_target_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_support
+  rdfs:comment "" ;
+.
+mssql:dbo_format_support_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_support_support_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_type_link
+  rdfs:comment "" ;
+.
+mssql:dbo_format_type_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_type_link_format_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_types
+  rdfs:comment "" ;
+.
+mssql:dbo_format_types_format_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_format_types_format_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware
+  rdfs:comment "This entity models hardware components which may be required to support specific software components or storage media." ;
+.
+mssql:dbo_hardware_aliases
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_aliases_alias_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_aliases_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_aliases_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_aliases_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_component
+  rdfs:comment "This entity models hardware components which may be required to support specific software components or storage media." ;
+.
+mssql:dbo_hardware_component_hardware_component_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_component_hardware_component_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_component_hardware_component_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_component_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_component_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_developers
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_developers_developer_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_developers_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_documentation_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_documentation_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_families
+  rdfs:comment "This entity enables technical components to be grouped into conceptual families." ;
+.
+mssql:dbo_hardware_families_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_families_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_families_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_family_link
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_family_link_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_family_link_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_hardware_description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_hardware_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_hardware_name_text
+  rdfs:comment "Preferred name of the hardware" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_images
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_images_base64_encoded
+  rdfs:comment "Image of the hardware product" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_images_description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_images_file_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_images_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_images_image_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_ipr_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_ipr_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_puid_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_release_date
+  rdfs:comment "Date on which the hardware was released" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_support
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_support_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_support_support_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_type
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_type_hardware_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_type_hardware_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_type_link
+  rdfs:comment "" ;
+.
+mssql:dbo_hardware_type_link_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_type_link_hardware_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_withdrawn_date
+  rdfs:comment "Date on which support for the hardware was, or is due to be, withdrawn" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_hardware_withdrawn_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property
+  rdfs:comment "" ;
+.
+mssql:dbo_inherent_property_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_high_risk
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_options
+  rdfs:comment "" ;
+.
+mssql:dbo_inherent_property_options_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_options_inherent_property_option_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_options_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_options_risk_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_risk_value
+  rdfs:comment "" ;
+.
+mssql:dbo_inherent_property_risk_value_risk_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_risk_value_risk_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_inherent_property_selected_option_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk
+  rdfs:comment "" ;
+.
+mssql:dbo_instance_numerical_property_risk_high_risk
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk_max_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk_min_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk_numerical_risk_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_numerical_property_risk_risk_score
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property
+  rdfs:comment "" ;
+.
+mssql:dbo_instance_property_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_measurement
+  rdfs:comment "" ;
+.
+mssql:dbo_instance_property_measurement_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_measurement_preference
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_measurement_tool_data_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_measurement_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_risk
+  rdfs:comment "" ;
+.
+mssql:dbo_instance_property_risk_high_risk
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_risk_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_risk_risk_score
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_instance_property_risk_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures
+  rdfs:comment "This entity models signatures contained within the bitstream of a digital object which may be used to identify file formats." ;
+.
+mssql:dbo_internal_signatures_generic_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_last_updated_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_provenance_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_signature_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_source_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_internal_signatures_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_invariances
+  rdfs:comment "" ;
+.
+mssql:dbo_invariances_invariance_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_invariances_invariance_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr
+  rdfs:comment "This entity models intellectual property rights which apply to another entity." ;
+.
+mssql:dbo_ipr_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_ipr_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_ipr_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_ipr_date
+  rdfs:comment "Date of the IPR" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_ipr_id
+  rdfs:comment "External identifier which applies to the rights entity" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_ipr_type_id
+  rdfs:comment "Type of right described" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_jurisdiction_id
+  rdfs:comment "Jurisdiction of the IPR" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_jurisdictions
+  rdfs:comment "" ;
+.
+mssql:dbo_ipr_jurisdictions_jurisdiction_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_jurisdictions_jurisdiction_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_licence_details_text
+  rdfs:comment "Details of any license arrangements" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_note_text
+  rdfs:comment "Informative note about the IPR" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_owners
+  rdfs:comment "" ;
+.
+mssql:dbo_ipr_owners_ipr_id
+  rdfs:comment "Owner of the IPR" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_owners_owner_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_types
+  rdfs:comment "" ;
+.
+mssql:dbo_ipr_types_ipr_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_ipr_types_ipr_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_languages
+  rdfs:comment "" ;
+.
+mssql:dbo_languages_language_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_languages_language_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_lossiness
+  rdfs:comment "" ;
+.
+mssql:dbo_lossiness_lossiness_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_lossiness_lossiness_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway
+  rdfs:comment "Contains the possible pathways for migrating documents from one file format to another. A pathway consists of the original format, the end format and a tool to carryout the migration." ;
+.
+mssql:dbo_migration_pathway_approval
+  rdfs:comment "Allows Technology Watch to approve a migration for presentation purposes but not for preservation. " ;
+.
+mssql:dbo_migration_pathway_approval_approved_by
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_approval_approved_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_approval_current_pathway
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_approval_migration_pathway_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_approval_migration_pathway_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_migration_pathway_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_notes
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_orig_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_approval
+  rdfs:comment "Allows Technology Watch to approve a migration property for presentation purposes but not for preservation." ;
+.
+mssql:dbo_migration_pathway_property_approval_approved_by
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_approval_approved_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_approval_migration_pathway_property_verification_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_approval_migration_pathway_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification
+  rdfs:comment "Stores the invariant status between properties in a migration. If the target format property is null, then the original property cannot be transferred during the migration. If the target format property is not null then the invariant field determines how successful the migration is for that property. The notes field will be included in the preservation plan for information purposes." ;
+.
+mssql:dbo_migration_pathway_property_verification_migration_pathway_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification_migration_pathway_property_verification_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification_notes
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification_orig_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification_target_instance_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_property_verification_variance
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_target_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_types
+  rdfs:comment "Lookup table for different types of migration pathways. We might want to specify different pathways for preservation and presentation, or to have different approve status." ;
+.
+mssql:dbo_migration_pathway_types_migration_pathway_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_migration_pathway_types_migration_pathway_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_operating_systems
+  rdfs:comment "" ;
+.
+mssql:dbo_operating_systems_operating_system_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_operating_systems_operating_system_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_position_types_position_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_position_types_position_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_process_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_process_documentation_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_process_documentation_software_id_file_format_id_process_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_process_types
+  rdfs:comment "Type of process" ;
+.
+mssql:dbo_process_types_process_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_process_types_process_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes
+  rdfs:comment "This defines the relationship between a software entity and a file format entity, in terms of the process which the software entity supports." ;
+.
+mssql:dbo_processes_default_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_invariance_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_last_updated_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_process_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_provenance_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_source_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_processes_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_property
+  rdfs:comment "Lookup table to store all file format and object instance properties." ;
+.
+mssql:dbo_property_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_property_name
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_property_property_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_puid_type
+  rdfs:comment "" ;
+.
+mssql:dbo_puid_type_next_available_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_puid_type_puid_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_puid_type_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_reference_file_documentation_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_documentation_reference_file_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_reference_file_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_reference_file_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_reference_file_id
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_reference_file_ipr_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_file_ipr_reference_file_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files
+  rdfs:comment "This entity describes reference files which may exist for file formats." ;
+.
+mssql:dbo_reference_files_file_Description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_file_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_last_updated_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_provenance_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_reference_file_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_source_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_reference_files_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_hardware
+  rdfs:comment "This describes the relationship between a technical component entity and a required hardware component entity." ;
+.
+mssql:dbo_required_hardware_for_hardware_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_hardware_note
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_hardware_qualifier_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_hardware_qualifier_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_hardware_req_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_software
+  rdfs:comment "This describes the relationship between a technical component entity and a required hardware component entity." ;
+.
+mssql:dbo_required_hardware_for_software_note
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_software_qualifier_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_software_qualifier_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_software_req_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_hardware_for_software_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_hardware
+  rdfs:comment "This describes the relationship between a technical component entity and a required software entity." ;
+.
+mssql:dbo_required_software_for_hardware_hardware_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_hardware_note
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_hardware_qualifier_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_hardware_qualifier_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_hardware_req_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_software
+  rdfs:comment "This describes the relationship between a technical component entity and a required software entity." ;
+.
+mssql:dbo_required_software_for_software_note
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_software_qualifier_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_software_qualifier_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_software_req_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_required_software_for_software_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_requirement_qualifiers
+  rdfs:comment "" ;
+.
+mssql:dbo_requirement_qualifiers_Description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_requirement_qualifiers_qualifier_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_signature_file_history
+  rdfs:comment "" ;
+.
+mssql:dbo_signature_file_history_date_created
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_signature_file_history_file_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_signature_file_history_schema_version
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_signature_file_history_version_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text
+  rdfs:comment "" ;
+.
+mssql:dbo_simple_search_full_text_aliases_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_identifiers_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_simple_search_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_source_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_simple_search_full_text_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software
+  rdfs:comment "" ;
+.
+mssql:dbo_software_aliases
+  rdfs:comment "" ;
+.
+mssql:dbo_software_aliases_alias_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_aliases_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_aliases_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_aliases_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_component
+  rdfs:comment "This entity models software components, including operating systems, which may be required to perform processes on specific file formats, or to support specific hardware components or storage media." ;
+.
+mssql:dbo_software_component_software_component_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_component_software_component_name_text
+  rdfs:comment "Preferred name of the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_component_software_component_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_component_software_id
+  rdfs:comment "External identifier which applies to the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_component_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_developers
+  rdfs:comment "" ;
+.
+mssql:dbo_software_developers_developer_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_developers_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_documentation
+  rdfs:comment "" ;
+.
+mssql:dbo_software_documentation_document_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_documentation_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_families
+  rdfs:comment "This entity enables technical components to be grouped into conceptual families." ;
+.
+mssql:dbo_software_families_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_families_family_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_families_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_families_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_family_link
+  rdfs:comment "" ;
+.
+mssql:dbo_software_family_link_family_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_family_link_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifier_types
+  rdfs:comment "Type of identifier" ;
+.
+mssql:dbo_software_identifier_types_identifier_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifier_types_identifier_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers
+  rdfs:comment "This entity models external identifiers which may be applied to another entity." ;
+.
+mssql:dbo_software_identifiers_identifier_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_identifier_text
+  rdfs:comment "Value of the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_identifier_type_id
+  rdfs:comment "Type of identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_note_text
+  rdfs:comment "Informative note about the identifier" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_identifiers_source_id
+  rdfs:comment "Actor entity which provided the information" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_images
+  rdfs:comment "" ;
+.
+mssql:dbo_software_images_base64_encoded
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_images_description_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_images_file_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_images_image_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_images_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_ipr
+  rdfs:comment "" ;
+.
+mssql:dbo_software_ipr_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_ipr_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_languages
+  rdfs:comment "" ;
+.
+mssql:dbo_software_languages_language_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_languages_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_last_updated_date
+  rdfs:comment "Date and time at which the information was last updated" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_maintainers
+  rdfs:comment "" ;
+.
+mssql:dbo_software_maintainers_maintainer_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_maintainers_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_note_text
+  rdfs:comment "Informative note about the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_provenance_text
+  rdfs:comment "Informative note on the provenance" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_puid_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_puid_value
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationship_types
+  rdfs:comment "Type of relationship" ;
+.
+mssql:dbo_software_relationship_types_inverse_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationship_types_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationship_types_type_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationships
+  rdfs:comment "Relationships between entities of the same type are defined using a generic relationship" ;
+.
+mssql:dbo_software_relationships_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationships_relationship_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationships_relationship_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationships_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_relationships_target_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_release_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_service_pack_text
+  rdfs:comment "Service pack or patch level applied to the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_software_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_software_name_text
+  rdfs:comment "Preferred name of the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_software_text
+  rdfs:comment "Description of the main characteristics of the software" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_source_date
+  rdfs:comment "Date and time at which the information was added to PRONOM" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_storage_media
+  rdfs:comment "" ;
+.
+mssql:dbo_software_storage_media_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_storage_media_storage_medium_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_tools_link
+  rdfs:comment "Link the technology watch tools to the PRONOM software table." ;
+.
+mssql:dbo_software_tools_link_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_tools_link_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_type_link
+  rdfs:comment "" ;
+.
+mssql:dbo_software_type_link_software_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_type_link_software_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_types
+  rdfs:comment "" ;
+.
+mssql:dbo_software_types_software_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_types_software_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_version_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_withdrawn_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_software_withdrawn_flag
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_storage_media
+  rdfs:comment "This entity models specific types of physical storage media which may be used to store digital objects." ;
+.
+mssql:dbo_storage_media_storage_medium_id
+  rdfs:comment "Internal system-generated ID" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_storage_media_storage_medium_text
+  rdfs:comment "Description of the main characteristics of the medium" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tblXSL
+  rdfs:comment "" ;
+.
+mssql:dbo_tblXSL_data_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tblXSL_name_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_technical_environment
+  rdfs:comment "" ;
+.
+mssql:dbo_technical_environment_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_technical_environment_name
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_technical_environment_technical_environment_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tool_data
+  rdfs:comment "" ;
+.
+mssql:dbo_tool_data_tool_data_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tool_types
+  rdfs:comment "Lookup table, contains the different uses of the tools, such as identify, migrate, validate etc. This table allows Technology Watch to query the register for all tools, which will validate a particular format etc." ;
+.
+mssql:dbo_tool_types_tool_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tool_types_tool_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tools
+  rdfs:comment "Contains all the technology watch tool wrappers. The class name is the fully qualified Java class eg. uk.gov.nationalarchives.tools.Jhove, this allows Technology Watch to instantiate the tool using the Java Reflection mechanism." ;
+.
+mssql:dbo_tools_class_name
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tools_tool_description
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tools_tool_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_tools_tool_name
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_file_extensions
+  rdfs:comment "" ;
+.
+mssql:dbo_v_file_extensions_external_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_file_extensions_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_file_extensions_signature_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_file_extensions_signature_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_generic_internal_signature_link
+  rdfs:comment "" ;
+.
+mssql:dbo_v_format_generic_internal_signature_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_generic_internal_signature_link_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_puids
+  rdfs:comment "" ;
+.
+mssql:dbo_v_format_puids_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_puids_identifier_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_specific_internal_signature_link
+  rdfs:comment "" ;
+.
+mssql:dbo_v_format_specific_internal_signature_link_file_format_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_format_specific_internal_signature_link_signature_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions
+  rdfs:comment "" ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_ipr_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_ipr_type_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_ipr_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_jurisdiction_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_jurisdiction_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_last_updated_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_licence_details_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_provenance_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_source_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_jurisdictions_source_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_owners
+  rdfs:comment "" ;
+.
+mssql:dbo_v_ipr_and_owners_ipr_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_owners_ipr_type_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_owners_licence_details_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_owners_note_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_ipr_and_owners_owner
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_puids
+  rdfs:comment "" ;
+.
+mssql:dbo_v_puids_component_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_puids_component_type
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_v_puids_identifier_text
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_version
+  rdfs:comment "" ;
+.
+mssql:dbo_version_build
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_version_changed_by
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_version_major_version
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_version_minor_version
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_version_update_date
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtd_locations
+  rdfs:comment "" ;
+.
+mssql:dbo_xml_dtd_locations_xml_dtd_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtd_locations_xml_dtd_location_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtd_locations_xml_dtd_public_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtd_locations_xml_dtd_system_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtds
+  rdfs:comment "" ;
+.
+mssql:dbo_xml_dtds_xml_dtd
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_dtds_xml_dtd_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_schema_locations
+  rdfs:comment "" ;
+.
+mssql:dbo_xml_schema_locations_xml_schema_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_schema_locations_xml_schema_location
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_schema_locations_xml_schema_location_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_schema_locations_xml_schema_namespace
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.
+mssql:dbo_xml_schemas
+  rdfs:comment "" ;
+.
+mssql:dbo_xml_schemas_xml_schema_id
+  rdfs:comment "" ;
+  owl:maxCardinality 1 ;
+  owl:minCardinality 0 ;
+.

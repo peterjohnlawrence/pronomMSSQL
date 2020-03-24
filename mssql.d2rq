@@ -1,0 +1,4 @@
+#D2RQ Properties file needed by TopBraid Composer as a placeholder for the virtual database
+#Mon Dec 09 20:40:01 GMT 2019
+MappingFile=mssql-Mapping.ttl
+BaseURI=http\://reference.data.gov.uk/technical-registry/mssql

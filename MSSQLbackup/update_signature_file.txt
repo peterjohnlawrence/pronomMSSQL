@@ -1,0 +1,92 @@
+@echo off
+REM =========================================================================	
+REM	BATCH FILE FOR CREATING PRONOM 6 SIGNATURE FILES
+REM
+REM	Crown Copyright @ 2005.  All rights reserved.
+REM
+REM	Developed by:
+REM	Tessella Support Services plc
+REM	3 Vineyard Chambers
+REM	Abingdon, OX14 3PX
+REM	United Kingdom
+REM	http://www.tessella.com
+REM
+REM	Tessella/NPD/4950
+REM	PRONOM 6
+REM
+REM	This file assumes that the user is logged on using a windows username which has the
+REM	necessary privileges in the PRONOM database (defined by the ffsf_creator database role)
+REM The signature file is now generated from the database when it is requested - we need the script
+REM to ensure that a version of the signature file remains unchanged. - by creating a checkpoint.
+REM Some of the preprocessing is done here.
+REM	
+REM	UPDATE RECORD:
+REM	Date			Version		Who				Comment
+REM	16-JAN-2006	V6.R0.M0		D.Grant (Tessella)		Created.
+REM
+REM  $Id: update_signature_file.bat,v 1.3 2006/02/06 09:23:15 linb Exp $
+REM  $Log: update_signature_file.bat,v $
+REM  Revision 1.3  2006/02/06 09:23:15  linb
+REM  - Changed namespace URI to be at nationalarchives.gov.uk
+REM  - Added XML declaration to xml file
+REM
+REM =========================================================================
+
+
+REM =========================================================================
+REM THE FOLLOWING VARIABLES MUST BE SET ACCORDING TO THE ENVIRONMENT
+REM
+REM The signature file name will be based on the following variable with the version number appended
+  set sigfilebasename=D:\PRONOM\DROID_SignatureFile
+REM The namespace uri to use for the XML file
+  set ffsf_ns='http://www.nationalarchives.gov.uk/PRONOM/SignatureFile'
+REM
+REM The following variables should hold the name of the db server and of the PRONOM database
+  set dbserver=localhost
+  set dbname=pronomtestinstall
+REM =========================================================================
+
+
+REM	CREATE NECESSARY DATA TABLES
+osql -E -S%dbserver% -d%dbname% -Q "EXIT(exec proc_ffsf_create_tables)"
+	REM pause
+  set out1=%ERRORLEVEL%
+  IF NOT %out1% == 0 GOTO ERROR
+  osql -E -S%dbserver% -d%dbname% -Q "EXIT(exec proc_ffsf_split_byte_sequences)"
+ REM  pause
+  set out2=%ERRORLEVEL%
+  IF NOT %out2% == 0 GOTO ERROR
+
+REM	READ THE SIGNATURE FILE VERSION AND CREATE FULL SIGNATURE FILE NAME
+  osql -E -S%dbserver% -d%dbname% -Q "EXIT(exec proc_ffsf_prepare_historyV1)"
+REM   pause
+  set ffsf_version=%ERRORLEVEL%
+  set ffsf_file_tempV1=%sigfilebasename%_V%ffsf_version%-temp.xml
+  set ffsf_fileV1=%sigfilebasename%_V%ffsf_version%.xml
+  
+  osql -E -S%dbserver% -d%dbname% -Q "EXIT(exec proc_ffsf_update_history %ffsf_version%, '%ffsf_fileV1%')"
+  
+REM UPDATE THE RECORD OF WHICH FILE FORMATS DROID CAN IDENTIFY
+  osql -E -S%dbserver% -d%dbname% -Q "EXIT(exec proc_ffsf_update_file_format_tool_link)"
+
+REM	WRITE SIGNATURE FILE V1
+ bcp "EXEC [%dbname%]..proc_ffsf_get_signature_V1" queryout %ffsf_file_tempV1% -S %dbserver% -T -w
+pause
+
+REM ('^' is the Windows NT escape character)
+REM	WRITE XML HEADER TO FILE
+echo ^<?xml version="1.0" encoding="UTF-8"?^> > %ffsf_fileV1%
+
+REM	APPEND CONTENTS OF XML FILE
+ type %ffsf_file_tempV1% >> %ffsf_fileV1%
+ del %ffsf_file_tempV1%
+
+  echo.
+  echo A new signature file has been written to: %ffsf_fileV1%
+  GOTO END
+:ERROR
+  echo AN ERROR OCCURRED: Signature file was not created
+
+:END
+
+

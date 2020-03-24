@@ -1,0 +1,117 @@
+# baseURI: null
+
+@prefix composite: <http://www.topbraid.org/2007/05/composite.owl#> .
+@prefix forms: <http://www.topbraid.org/2007/01/forms.owl#> .
+@prefix inference: <http://www.topbraid.org/2007/06/inference.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix visual: <http://topbraid.org/visual#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_actors>
+  forms:keyProperties (
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_actors_organisation_name_text>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_actors_name_text>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_byte_sequences>
+  forms:keyProperties (
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_byte_sequences_big_endian_flag>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_encoding>
+  forms:keyProperties (
+      rdfs:label
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_encoding_source_id>
+      rdfs:comment
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_file_formats>
+  forms:keyProperties (
+      rdfs:label
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_file_formats_puid_type_id>
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_file_formats_puid_value>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_byte_order_link>
+  forms:keyProperties (
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_byte_order_link_byte_order_id>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_families>
+  forms:keyProperties (
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_families_family_text>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_families_name_text>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_families_note_text>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_identifier_types>
+  forms:keyProperties (
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_identifier_types_identifier_type_text>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_identifiers>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_identifiers_identifier_text>
+      rdfs:label
+      rdfs:comment
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_identifiers_identifier_type_id>
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_relationship_types>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_relationship_types_type_name_text>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_relationships_relationship_type_id>
+      rdfs:label
+      rdfs:comment
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_relationships>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_relationships_relationship_type_id>
+      rdfs:label
+      rdfs:comment
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_types>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_format_types_format_type_text>
+      rdfs:label
+      rdfs:comment
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_internal_signatures>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_internal_signatures_generic_flag>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_internal_signatures_note_text>
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_internal_signatures_signature_name_text>
+      rdfs:comment
+      rdfs:label
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_position_types>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_position_types_position_type_text>
+      rdfs:label
+      rdfs:comment
+    ) ;
+.
+<http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_puid_type>
+  forms:keyProperties (
+      <http://reference.data.gov.uk/technical-registry/schema/mssql#dbo_puid_type_puid_type>
+      rdfs:label
+      rdfs:comment
+    ) ;
+.

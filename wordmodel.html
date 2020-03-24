@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>dbo_file_formats</title>
+<h1>select ?modelDefinition
+{
+   (:dbo_file_formats  10 true true ) wordmodel:modelDefinition   ?modelDefinition  .
+}
+</h1>
+</head>
+<body>
+<b>dbo.file_formats</b>(<i>dbo_file_formats_binary_flag{0:*}</i>, <i>dbo_file_formats_file_format_id{0:*}</i>, <i>dbo_file_formats_format_name_text{0:*}</i>, <i>dbo_file_formats_format_text{0:*}</i>, <i>dbo_file_formats_last_updated_date{0:*}</i>, <i>dbo_file_formats_note_text{0:*}</i>, <i>dbo_file_formats_provenance_text{0:*}</i>, <i>dbo_file_formats_puid_value{0:*}</i>, <i>dbo_file_formats_release_date{0:*}</i>, <i>dbo_file_formats_source_date{0:*}</i>, <i>dbo_file_formats_version_text{0:*}</i>, <i>dbo_file_formats_withdrawn_date{0:*}</i>, <i>dbo_file_formats_withdrawn_flag{0:*}</i>)<blockquote>that <u>dbo_file_formats_puid_type_id</u>{0:*} <b>dbo.puid_type</b>(<i>dbo_puid_type_next_available_value{0:*}</i>, <i>dbo_puid_type_puid_type{0:*}</i>, <i>dbo_puid_type_puid_type_id{0:*}</i>)<br/>and that <u>dbo_file_formats_disclosure_id</u>{0:*} <b>dbo.format_disclosures</b>(<i>dbo_format_disclosures_disclosure_id{0:*}</i>, <i>dbo_format_disclosures_disclosure_text{0:*}</i>)<br/>and that <u>dbo_file_formats_source_id</u>{0:*} <b>dbo.actors</b>(<i>dbo_actors_address_text{0:*}</i>, <i>dbo_actors_contact_email_text{0:*}</i>, <i>dbo_actors_job_title_text{0:*}</i>, <i>dbo_actors_last_updated_date{0:*}</i>, <i>dbo_actors_name_text{0:*}</i>, <i>dbo_actors_organisation_name_text{0:*}</i>, <i>dbo_actors_provenance_text{0:*}</i>, <i>dbo_actors_source_date{0:*}</i>, <i>dbo_actors_support_website_text{0:*}</i>, <i>dbo_actors_telephone_text{0:*}</i>, <i>dbo_actors_website_text{0:*}</i>)<br/><blockquote>that <u>dbo_actors_country_code_text</u>{0:*} <b>dbo.countries</b>(<i>dbo_countries_country_code_text{0:*}</i>, <i>dbo_countries_country_name_text{0:*}</i>)<br/>and that <u>dbo_actors_actor_type_id</u>{0:*} <b>dbo.actor_types</b>(<i>dbo_actor_types_actor_type_id{0:*}</i>, <i>dbo_actor_types_actor_type_text{0:*}</i>)<br/>and that <u>dbo_actors_source_id</u>{0:*} <b>dbo.actors</b></blockquote></blockquote>
+</html>

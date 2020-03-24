@@ -1,0 +1,181 @@
+table	tablename	tableDescription	instances
+foaf:Agent	Agent	An agent (eg. person, group, software or physical artifact).	0
+rdfs:Class	Class	The class of classes.	284
+foaf:Document	Document	A document.	0
+foaf:Group	Group	A class of Agents.	0
+foaf:Image	Image	An image.	0
+foaf:LabelProperty	Label Property	A foaf:LabelProperty is any RDF property with texual values that serve as labels.	0
+owl:Nothing	Nothing	This empty class.	0
+foaf:OnlineAccount	Online Account	An online account.	0
+foaf:OnlineChatAccount	Online Chat Account	An online chat account.	0
+foaf:OnlineEcommerceAccount	Online E-commerce Account	An online e-commerce account.	0
+foaf:OnlineGamingAccount	Online Gaming Account	An online gaming account.	0
+foaf:Organization	Organization	An organization.	0
+foaf:Person	Person	A person.	0
+foaf:PersonalProfileDocument	PersonalProfileDocument	A personal profile RDF document.	0
+foaf:Project	Project	A project (a collective endeavour of some kind).	0
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>	Spatial Thing		0
+owl:Thing	Thing	The class of OWL individuals.	0
+vocab:dbo_actor_history	dbo.actor_history		0
+vocab:dbo_actor_types	dbo.actor_types		11
+vocab:dbo_actors	dbo.actors	This entity models an individual or organisation which performs a defined role with respect to another entity.	216
+vocab:dbo_availability	dbo.availability		3
+vocab:dbo_byte_orders	dbo.byte_orders		2
+vocab:dbo_byte_sequences	dbo.byte_sequences	This entity models individual byte sequences which form an internal signature.	1747
+vocab:dbo_component_identification_tool_link	dbo.component_identification_tool_link		11
+vocab:dbo_component_manifestation_formats_link	dbo.component_manifestation_formats_link		42
+vocab:dbo_component_manifestation_types	dbo.component_manifestation_types		12
+vocab:dbo_component_measurement_tool_link	dbo.component_measurement_tool_link		8
+vocab:dbo_component_property	dbo.component_property		4
+vocab:dbo_component_types	dbo.component_types		7
+vocab:dbo_compression_aliases	dbo.compression_aliases		7
+vocab:dbo_compression_developers	dbo.compression_developers		4
+vocab:dbo_compression_documentation	dbo.compression_documentation		5
+vocab:dbo_compression_families	dbo.compression_families	This entity enables technical components to be grouped into conceptual families.	0
+vocab:dbo_compression_family_link	dbo.compression_family_link		0
+vocab:dbo_compression_identifier_types	dbo.compression_identifier_types	Type of identifier	5
+vocab:dbo_compression_identifiers	dbo.compression_identifiers	This entity models external identifiers which may be applied to another entity.	7
+vocab:dbo_compression_ipr	dbo.compression_ipr		0
+vocab:dbo_compression_relationship_types	dbo.compression_relationship_types	Type of relationship	9
+vocab:dbo_compression_relationships	dbo.compression_relationships	Relationships between entities of the same type are defined using a generic relationship	0
+vocab:dbo_compression_support	dbo.compression_support		0
+vocab:dbo_compression_types	dbo.compression_types	This entity models compression algorithms employed by file formats	17
+vocab:dbo_countries	dbo.countries		240
+vocab:dbo_document_authors	dbo.document_authors		76
+vocab:dbo_document_identifier_types	dbo.document_identifier_types	Type of identifier	15
+vocab:dbo_document_identifiers	dbo.document_identifiers	This entity models external identifiers which may be applied to another entity.	43
+vocab:dbo_document_ipr	dbo.document_ipr		1
+vocab:dbo_document_publishers	dbo.document_publishers		74
+vocab:dbo_document_relationship_types	dbo.document_relationship_types	Type of relationship	9
+vocab:dbo_document_relationships	dbo.document_relationships	Relationships between entities of the same type are defined using a generic relationship	0
+vocab:dbo_document_types	dbo.document_types		3
+vocab:dbo_documents	dbo.documents		72
+vocab:dbo_dtproperties	dbo.dtproperties	This entity models items of documentation which relate to another entity.	0
+vocab:dbo_encoding	dbo.encoding	This entity models character encodings (character maps ) employed by file formats.	28
+vocab:dbo_encoding_aliases	dbo.encoding_aliases		0
+vocab:dbo_encoding_developer	dbo.encoding_developer		0
+vocab:dbo_encoding_documentation	dbo.encoding_documentation		0
+vocab:dbo_encoding_families	dbo.encoding_families	This entity enables technical components to be grouped into conceptual families.	0
+vocab:dbo_encoding_family_link	dbo.encoding_family_link		0
+vocab:dbo_encoding_identifier_types	dbo.encoding_identifier_types	Type of identifier	2
+vocab:dbo_encoding_identifiers	dbo.encoding_identifiers	This entity models external identifiers which may be applied to another entity.	0
+vocab:dbo_encoding_ipr	dbo.encoding_ipr		0
+vocab:dbo_encoding_relationship_types	dbo.encoding_relationship_types	Type of relationship	9
+vocab:dbo_encoding_relationships	dbo.encoding_relationships	Relationships between entities of the same type are defined using a generic relationship	0
+vocab:dbo_encoding_support	dbo.encoding_support		0
+vocab:dbo_external_signature_types	dbo.external_signature_types		3
+vocab:dbo_external_signatures	dbo.external_signatures	This entity models signatures which are external to the bitstream of a digital object which may be used to identify file formats.	2021
+vocab:dbo_ffsf_fragments	dbo.ffsf_fragments		1
+vocab:dbo_ffsf_shifts	dbo.ffsf_shifts		1
+vocab:dbo_ffsf_subsequences	dbo.ffsf_subsequences		1
+vocab:dbo_file_format_tool_link	dbo.file_format_tool_link	This table links file formats with tools. This tells Technology Watch which tools can be used on which file formats. The priority field is provided so that we can try tools in order.	1700
+vocab:dbo_file_formats	dbo.file_formats	This entity models the file formats which may be used to encode digital objects.	1686
+vocab:dbo_format_aliases	dbo.format_aliases		234
+vocab:dbo_format_byte_order_link	dbo.format_byte_order_link		159
+vocab:dbo_format_compression_types	dbo.format_compression_types		30
+vocab:dbo_format_developers	dbo.format_developers		480
+vocab:dbo_format_disclosures	dbo.format_disclosures		3
+vocab:dbo_format_documentation	dbo.format_documentation		103
+vocab:dbo_format_encodings	dbo.format_encodings		1
+vocab:dbo_format_environment	dbo.format_environment		0
+vocab:dbo_format_families	dbo.format_families	This entity enables technical components to be grouped into conceptual families.	6
+vocab:dbo_format_family_link	dbo.format_family_link		71
+vocab:dbo_format_identifier_types	dbo.format_identifier_types	Type of identifier	9
+vocab:dbo_format_identifiers	dbo.format_identifiers	This entity models external identifiers which may be applied to another entity.	738
+vocab:dbo_format_internal_signature_link	dbo.format_internal_signature_link		1439
+vocab:dbo_format_ipr	dbo.format_ipr		0
+vocab:dbo_format_relationship_types	dbo.format_relationship_types	Type of relationship	9
+vocab:dbo_format_relationships	dbo.format_relationships	Relationships between entities of the same type are defined using a generic relationship	1264
+vocab:dbo_format_support	dbo.format_support		383
+vocab:dbo_format_type_link	dbo.format_type_link		1362
+vocab:dbo_format_types	dbo.format_types		18
+vocab:dbo_hardware	dbo.hardware	This entity models hardware components which may be required to support specific software components or storage media.	0
+vocab:dbo_hardware_aliases	dbo.hardware_aliases		0
+vocab:dbo_hardware_component	dbo.hardware_component	This entity models hardware components which may be required to support specific software components or storage media.	0
+vocab:dbo_hardware_developers	dbo.hardware_developers		0
+vocab:dbo_hardware_documentation	dbo.hardware_documentation		0
+vocab:dbo_hardware_families	dbo.hardware_families	This entity enables technical components to be grouped into conceptual families.	0
+vocab:dbo_hardware_family_link	dbo.hardware_family_link		0
+vocab:dbo_hardware_images	dbo.hardware_images		0
+vocab:dbo_hardware_ipr	dbo.hardware_ipr		0
+vocab:dbo_hardware_support	dbo.hardware_support		0
+vocab:dbo_hardware_type	dbo.hardware_type		0
+vocab:dbo_hardware_type_link	dbo.hardware_type_link		0
+vocab:dbo_inherent_property	dbo.inherent_property		0
+vocab:dbo_inherent_property_options	dbo.inherent_property_options		34
+vocab:dbo_inherent_property_risk_value	dbo.inherent_property_risk_value		6
+vocab:dbo_instance_numerical_property_risk	dbo.instance_numerical_property_risk		0
+vocab:dbo_instance_property	dbo.instance_property		285
+vocab:dbo_instance_property_measurement	dbo.instance_property_measurement		270
+vocab:dbo_instance_property_risk	dbo.instance_property_risk		0
+vocab:dbo_internal_signatures	dbo.internal_signatures	This entity models signatures contained within the bitstream of a digital object which may be used to identify file formats.	1458
+vocab:dbo_invariances	dbo.invariances		4
+vocab:dbo_ipr	dbo.ipr	This entity models intellectual property rights which apply to another entity.	36
+vocab:dbo_ipr_identifier_types	dbo.ipr_identifier_types	Type of identifier	2
+vocab:dbo_ipr_identifiers	dbo.ipr_identifiers	This entity models external identifiers which may be applied to another entity.	0
+vocab:dbo_ipr_jurisdictions	dbo.ipr_jurisdictions		242
+vocab:dbo_ipr_owners	dbo.ipr_owners		34
+vocab:dbo_ipr_types	dbo.ipr_types		3
+vocab:dbo_languages	dbo.languages		21
+vocab:dbo_lossiness	dbo.lossiness		2
+vocab:dbo_migration_pathway	dbo.migration_pathway	Contains the possible pathways for migrating documents from one file format to another. A pathway consists of the original format, the end format and a tool to carryout the migration.	41
+vocab:dbo_migration_pathway_approval	dbo.migration_pathway_approval	Allows Technology Watch to approve a migration for presentation purposes but not for preservation. 	72
+vocab:dbo_migration_pathway_property_approval	dbo.migration_pathway_property_approval	Allows Technology Watch to approve a migration property for presentation purposes but not for preservation.	0
+vocab:dbo_migration_pathway_property_verification	dbo.migration_pathway_property_verification	Stores the invariant status between properties in a migration. If the target format property is null, then the original property cannot be transferred during the migration. If the target format property is not null then the invariant field determines how successful the migration is for that property. The notes field will be included in the preservation plan for information purposes.	10
+vocab:dbo_migration_pathway_types	dbo.migration_pathway_types	Lookup table for different types of migration pathways. We might want to specify different pathways for preservation and presentation, or to have different approve status.	3
+vocab:dbo_operating_systems	dbo.operating_systems		115
+vocab:dbo_position_types	dbo.position_types		5
+vocab:dbo_process_documentation	dbo.process_documentation		0
+vocab:dbo_process_types	dbo.process_types	Type of process	5
+vocab:dbo_processes	dbo.processes	This defines the relationship between a software entity and a file format entity, in terms of the process which the software entity supports.	2096
+vocab:dbo_property	dbo.property	Lookup table to store all file format and object instance properties.	36
+vocab:dbo_puid_type	dbo.puid_type		10
+vocab:dbo_reference_file_documentation	dbo.reference_file_documentation		0
+vocab:dbo_reference_file_identifier_types	dbo.reference_file_identifier_types	Type of identifier	2
+vocab:dbo_reference_file_identifiers	dbo.reference_file_identifiers	This entity models external identifiers which may be applied to another entity.	3
+vocab:dbo_reference_file_ipr	dbo.reference_file_ipr		0
+vocab:dbo_reference_files	dbo.reference_files	This entity describes reference files which may exist for file formats.	3
+vocab:dbo_required_hardware_for_hardware	dbo.required_hardware_for_hardware	This describes the relationship between a technical component entity and a required hardware component entity.	0
+vocab:dbo_required_hardware_for_software	dbo.required_hardware_for_software	This describes the relationship between a technical component entity and a required hardware component entity.	0
+vocab:dbo_required_software_for_hardware	dbo.required_software_for_hardware	This describes the relationship between a technical component entity and a required software entity.	0
+vocab:dbo_required_software_for_software	dbo.required_software_for_software	This describes the relationship between a technical component entity and a required software entity.	0
+vocab:dbo_requirement_qualifiers	dbo.requirement_qualifiers		0
+vocab:dbo_signature_file_history	dbo.signature_file_history		95
+vocab:dbo_simple_search_full_text	dbo.simple_search_full_text		1660
+vocab:dbo_software	dbo.software		272
+vocab:dbo_software_aliases	dbo.software_aliases		7
+vocab:dbo_software_component	dbo.software_component	This entity models software components, including operating systems, which may be required to perform processes on specific file formats, or to support specific hardware components or storage media.	0
+vocab:dbo_software_developers	dbo.software_developers		274
+vocab:dbo_software_documentation	dbo.software_documentation		6
+vocab:dbo_software_families	dbo.software_families	This entity enables technical components to be grouped into conceptual families.	0
+vocab:dbo_software_family_link	dbo.software_family_link		0
+vocab:dbo_software_identifier_types	dbo.software_identifier_types	Type of identifier	2
+vocab:dbo_software_identifiers	dbo.software_identifiers	This entity models external identifiers which may be applied to another entity.	0
+vocab:dbo_software_images	dbo.software_images		8
+vocab:dbo_software_ipr	dbo.software_ipr		158
+vocab:dbo_software_languages	dbo.software_languages		258
+vocab:dbo_software_maintainers	dbo.software_maintainers		265
+vocab:dbo_software_relationship_types	dbo.software_relationship_types	Type of relationship	9
+vocab:dbo_software_relationships	dbo.software_relationships	Relationships between entities of the same type are defined using a generic relationship	3
+vocab:dbo_software_storage_media	dbo.software_storage_media		260
+vocab:dbo_software_tools_link	dbo.software_tools_link	Link the technology watch tools to the PRONOM software table.	0
+vocab:dbo_software_type_link	dbo.software_type_link		265
+vocab:dbo_software_types	dbo.software_types		21
+vocab:dbo_storage_media	dbo.storage_media	This entity models specific types of physical storage media which may be used to store digital objects.	6
+vocab:dbo_tblXSL	dbo.tblXSL		1
+vocab:dbo_technical_environment	dbo.technical_environment		0
+vocab:dbo_tool_data	dbo.tool_data		40
+vocab:dbo_tool_types	dbo.tool_types	Lookup table, contains the different uses of the tools, such as identify, migrate, validate etc. This table allows Technology Watch to query the register for all tools, which will validate a particular format etc.	6
+vocab:dbo_tools	dbo.tools	Contains all the technology watch tool wrappers. The class name is the fully qualified Java class eg. uk.gov.nationalarchives.tools.Jhove, this allows Technology Watch to instantiate the tool using the Java Reflection mechanism.	29
+vocab:dbo_v_file_extensions	dbo.v_file_extensions		1
+vocab:dbo_v_format_generic_internal_signature_link	dbo.v_format_generic_internal_signature_link		1
+vocab:dbo_v_format_puids	dbo.v_format_puids		1
+vocab:dbo_v_format_specific_internal_signature_link	dbo.v_format_specific_internal_signature_link		1
+vocab:dbo_v_ipr_and_jurisdictions	dbo.v_ipr_and_jurisdictions		1
+vocab:dbo_v_ipr_and_owners	dbo.v_ipr_and_owners		1
+vocab:dbo_v_puids	dbo.v_puids		1
+vocab:dbo_version	dbo.version		0
+vocab:dbo_xml_dtd_locations	dbo.xml_dtd_locations		0
+vocab:dbo_xml_dtds	dbo.xml_dtds		0
+vocab:dbo_xml_schema_locations	dbo.xml_schema_locations		0
+vocab:dbo_xml_schemas	dbo.xml_schemas		0

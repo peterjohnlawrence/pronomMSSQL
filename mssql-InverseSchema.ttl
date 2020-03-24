@@ -1,0 +1,1478 @@
+# baseURI: http://reference.data.gov.uk/technical-registry/inverseSschema/mssql
+# imports: http://reference.data.gov.uk/technical-registry/schema/mssql
+# prefix: mssql
+
+@prefix mssql: <http://reference.data.gov.uk/technical-registry/inverseSschema/mssql#> .
+@prefix mssql1: <http://reference.data.gov.uk/technical-registry/schema/mssql#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://reference.data.gov.uk/technical-registry/inverseSschema/mssql>
+  rdf:type owl:Ontology ;
+  owl:imports <http://reference.data.gov.uk/technical-registry/schema/mssql> ;
+  owl:versionInfo "Created with TopBraid Composer" ;
+.
+mssql1:actor_types_has_actors
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actor_types_has_actors" ;
+.
+mssql1:actors_has_actor_history
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_actor_history" ;
+.
+mssql1:actors_has_actors
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_actors" ;
+.
+mssql1:actors_has_compression_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_compression_developers" ;
+.
+mssql1:actors_has_compression_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_compression_identifiers" ;
+.
+mssql1:actors_has_compression_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_compression_support" ;
+.
+mssql1:actors_has_compression_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_compression_types" ;
+.
+mssql1:actors_has_document_authors
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_document_authors" ;
+.
+mssql1:actors_has_document_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_document_identifiers" ;
+.
+mssql1:actors_has_document_publishers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_document_publishers" ;
+.
+mssql1:actors_has_documents
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_documents" ;
+.
+mssql1:actors_has_encoding
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_encoding" ;
+.
+mssql1:actors_has_encoding_developer
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_encoding_developer" ;
+.
+mssql1:actors_has_encoding_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_encoding_identifiers" ;
+.
+mssql1:actors_has_encoding_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_encoding_support" ;
+.
+mssql1:actors_has_file_formats
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_file_formats" ;
+.
+mssql1:actors_has_format_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_format_developers" ;
+.
+mssql1:actors_has_format_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_format_identifiers" ;
+.
+mssql1:actors_has_format_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_format_support" ;
+.
+mssql1:actors_has_hardware_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_hardware_developers" ;
+.
+mssql1:actors_has_hardware_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_hardware_support" ;
+.
+mssql1:actors_has_internal_signatures
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_internal_signatures" ;
+.
+mssql1:actors_has_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_ipr" ;
+.
+mssql1:actors_has_ipr_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_ipr_identifiers" ;
+.
+mssql1:actors_has_ipr_owners
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_ipr_owners" ;
+.
+mssql1:actors_has_migration_pathway_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_migration_pathway_approval" ;
+.
+mssql1:actors_has_migration_pathway_property_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_migration_pathway_property_approval" ;
+.
+mssql1:actors_has_processes
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_processes" ;
+.
+mssql1:actors_has_reference_file_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_reference_file_identifiers" ;
+.
+mssql1:actors_has_reference_files
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_reference_files" ;
+.
+mssql1:actors_has_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_software" ;
+.
+mssql1:actors_has_software_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_software_developers" ;
+.
+mssql1:actors_has_software_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_software_identifiers" ;
+.
+mssql1:actors_has_software_maintainers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "actors_has_software_maintainers" ;
+.
+mssql1:availability_has_documents
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "availability_has_documents" ;
+.
+mssql1:byte_orders_has_format_byte_order_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "byte_orders_has_format_byte_order_link" ;
+.
+mssql1:component_manifestation_types_has_component_identification_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "component_manifestation_types_has_component_identification_tool_link" ;
+.
+mssql1:component_manifestation_types_has_component_manifestation_formats_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "component_manifestation_types_has_component_manifestation_formats_link" ;
+.
+mssql1:component_manifestation_types_has_component_measurement_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "component_manifestation_types_has_component_measurement_tool_link" ;
+.
+mssql1:component_types_has_component_manifestation_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "component_types_has_component_manifestation_types" ;
+.
+mssql1:component_types_has_component_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "component_types_has_component_property" ;
+.
+mssql1:compression_families_has_compression_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_families_has_compression_family_link" ;
+.
+mssql1:compression_identifier_types_has_compression_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_identifier_types_has_compression_identifiers" ;
+.
+mssql1:compression_relationship_types_has_compression_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_relationship_types_has_compression_relationships" ;
+.
+mssql1:compression_types_has_compression_aliases
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_aliases" ;
+.
+mssql1:compression_types_has_compression_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_developers" ;
+.
+mssql1:compression_types_has_compression_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_documentation" ;
+.
+mssql1:compression_types_has_compression_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_family_link" ;
+.
+mssql1:compression_types_has_compression_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_identifiers" ;
+.
+mssql1:compression_types_has_compression_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_ipr" ;
+.
+mssql1:compression_types_has_compression_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_relationships" ;
+.
+mssql1:compression_types_has_compression_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_compression_support" ;
+.
+mssql1:compression_types_has_format_compression_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "compression_types_has_format_compression_types" ;
+.
+mssql1:countries_has_actors
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "countries_has_actors" ;
+.
+mssql1:dbo_actor_history_actor_id
+  owl:inverseOf mssql1:actors_has_actor_history ;
+.
+mssql1:dbo_actors_actor_type_id
+  owl:inverseOf mssql1:actor_types_has_actors ;
+.
+mssql1:dbo_actors_country_code_text
+  owl:inverseOf mssql1:countries_has_actors ;
+.
+mssql1:dbo_actors_source_id
+  owl:inverseOf mssql1:actors_has_actors ;
+.
+mssql1:dbo_byte_sequences_position_type_id
+  owl:inverseOf mssql1:position_types_has_byte_sequences ;
+.
+mssql1:dbo_byte_sequences_signature_id
+  owl:inverseOf mssql1:internal_signatures_has_byte_sequences ;
+.
+mssql1:dbo_component_identification_tool_link_component_manifestation_type_id
+  owl:inverseOf mssql1:component_manifestation_types_has_component_identification_tool_link ;
+.
+mssql1:dbo_component_identification_tool_link_tool_id
+  owl:inverseOf mssql1:tools_has_component_identification_tool_link ;
+.
+mssql1:dbo_component_manifestation_formats_link_component_manifestation_type_id
+  owl:inverseOf mssql1:component_manifestation_types_has_component_manifestation_formats_link ;
+.
+mssql1:dbo_component_manifestation_formats_link_file_format_id
+  owl:inverseOf mssql1:file_formats_has_component_manifestation_formats_link ;
+.
+mssql1:dbo_component_manifestation_types_component_type_id
+  owl:inverseOf mssql1:component_types_has_component_manifestation_types ;
+.
+mssql1:dbo_component_measurement_tool_link_component_manifestation_type_id
+  owl:inverseOf mssql1:component_manifestation_types_has_component_measurement_tool_link ;
+.
+mssql1:dbo_component_measurement_tool_link_tool_id
+  owl:inverseOf mssql1:tools_has_component_measurement_tool_link ;
+.
+mssql1:dbo_component_property_component_type_id
+  owl:inverseOf mssql1:component_types_has_component_property ;
+.
+mssql1:dbo_component_property_property_id
+  owl:inverseOf mssql1:property_has_component_property ;
+.
+mssql1:dbo_compression_aliases_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_aliases ;
+.
+mssql1:dbo_compression_developers_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_developers ;
+.
+mssql1:dbo_compression_developers_developer_id
+  owl:inverseOf mssql1:actors_has_compression_developers ;
+.
+mssql1:dbo_compression_documentation_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_documentation ;
+.
+mssql1:dbo_compression_documentation_document_id
+  owl:inverseOf mssql1:documents_has_compression_documentation ;
+.
+mssql1:dbo_compression_family_link_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_family_link ;
+.
+mssql1:dbo_compression_family_link_family_id
+  owl:inverseOf mssql1:compression_families_has_compression_family_link ;
+.
+mssql1:dbo_compression_identifiers_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_identifiers ;
+.
+mssql1:dbo_compression_identifiers_identifier_type_id
+  owl:inverseOf mssql1:compression_identifier_types_has_compression_identifiers ;
+.
+mssql1:dbo_compression_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_compression_identifiers ;
+.
+mssql1:dbo_compression_ipr_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_ipr ;
+.
+mssql1:dbo_compression_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_compression_ipr ;
+.
+mssql1:dbo_compression_relationships_relationship_type_id
+  owl:inverseOf mssql1:compression_relationship_types_has_compression_relationships ;
+.
+mssql1:dbo_compression_relationships_source_id
+  owl:inverseOf mssql1:compression_types_has_compression_relationships ;
+.
+mssql1:dbo_compression_relationships_target_id
+  owl:inverseOf mssql1:compression_types_has_compression_relationships ;
+.
+mssql1:dbo_compression_support_compression_id
+  owl:inverseOf mssql1:compression_types_has_compression_support ;
+.
+mssql1:dbo_compression_support_support_id
+  owl:inverseOf mssql1:actors_has_compression_support ;
+.
+mssql1:dbo_compression_types_lossiness_id
+  owl:inverseOf mssql1:lossiness_has_compression_types ;
+.
+mssql1:dbo_compression_types_puid_type_id
+  owl:inverseOf mssql1:puid_type_has_compression_types ;
+.
+mssql1:dbo_compression_types_source_id
+  owl:inverseOf mssql1:actors_has_compression_types ;
+.
+mssql1:dbo_document_authors_author_id
+  owl:inverseOf mssql1:actors_has_document_authors ;
+.
+mssql1:dbo_document_authors_document_id
+  owl:inverseOf mssql1:documents_has_document_authors ;
+.
+mssql1:dbo_document_identifiers_document_id
+  owl:inverseOf mssql1:documents_has_document_identifiers ;
+.
+mssql1:dbo_document_identifiers_identifier_type_id
+  owl:inverseOf mssql1:document_identifier_types_has_document_identifiers ;
+.
+mssql1:dbo_document_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_document_identifiers ;
+.
+mssql1:dbo_document_ipr_document_id
+  owl:inverseOf mssql1:documents_has_document_ipr ;
+.
+mssql1:dbo_document_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_document_ipr ;
+.
+mssql1:dbo_document_publishers_document_id
+  owl:inverseOf mssql1:documents_has_document_publishers ;
+.
+mssql1:dbo_document_publishers_publisher_id
+  owl:inverseOf mssql1:actors_has_document_publishers ;
+.
+mssql1:dbo_document_relationships_relationship_type_id
+  owl:inverseOf mssql1:document_relationship_types_has_document_relationships ;
+.
+mssql1:dbo_document_relationships_source_id
+  owl:inverseOf mssql1:documents_has_document_relationships ;
+.
+mssql1:dbo_document_relationships_target_id
+  owl:inverseOf mssql1:documents_has_document_relationships ;
+.
+mssql1:dbo_documents_availability_id
+  owl:inverseOf mssql1:availability_has_documents ;
+.
+mssql1:dbo_documents_document_type_id
+  owl:inverseOf mssql1:document_types_has_documents ;
+.
+mssql1:dbo_documents_source_id
+  owl:inverseOf mssql1:actors_has_documents ;
+.
+mssql1:dbo_encoding_aliases_alias_id
+  owl:inverseOf mssql1:encoding_has_encoding_aliases ;
+.
+mssql1:dbo_encoding_developer_developer_id
+  owl:inverseOf mssql1:actors_has_encoding_developer ;
+.
+mssql1:dbo_encoding_developer_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_developer ;
+.
+mssql1:dbo_encoding_documentation_document_id
+  owl:inverseOf mssql1:documents_has_encoding_documentation ;
+.
+mssql1:dbo_encoding_documentation_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_documentation ;
+.
+mssql1:dbo_encoding_family_link_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_family_link ;
+.
+mssql1:dbo_encoding_family_link_family_id
+  owl:inverseOf mssql1:encoding_families_has_encoding_family_link ;
+.
+mssql1:dbo_encoding_identifiers_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_identifiers ;
+.
+mssql1:dbo_encoding_identifiers_identifier_type_id
+  owl:inverseOf mssql1:encoding_identifier_types_has_encoding_identifiers ;
+.
+mssql1:dbo_encoding_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_encoding_identifiers ;
+.
+mssql1:dbo_encoding_ipr_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_ipr ;
+.
+mssql1:dbo_encoding_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_encoding_ipr ;
+.
+mssql1:dbo_encoding_puid_type_id
+  owl:inverseOf mssql1:puid_type_has_encoding ;
+.
+mssql1:dbo_encoding_relationships_relationship_type_id
+  owl:inverseOf mssql1:encoding_relationship_types_has_encoding_relationships ;
+.
+mssql1:dbo_encoding_relationships_source_id
+  owl:inverseOf mssql1:encoding_has_encoding_relationships ;
+.
+mssql1:dbo_encoding_relationships_target_id
+  owl:inverseOf mssql1:encoding_has_encoding_relationships ;
+.
+mssql1:dbo_encoding_source_id
+  owl:inverseOf mssql1:actors_has_encoding ;
+.
+mssql1:dbo_encoding_support_encoding_id
+  owl:inverseOf mssql1:encoding_has_encoding_support ;
+.
+mssql1:dbo_encoding_support_support_id
+  owl:inverseOf mssql1:actors_has_encoding_support ;
+.
+mssql1:dbo_external_signatures_file_format_id
+  owl:inverseOf mssql1:file_formats_has_external_signatures ;
+.
+mssql1:dbo_external_signatures_signature_type_id
+  owl:inverseOf mssql1:external_signature_types_has_external_signatures ;
+.
+mssql1:dbo_file_format_tool_link_format_id
+  owl:inverseOf mssql1:file_formats_has_file_format_tool_link ;
+.
+mssql1:dbo_file_format_tool_link_tool_id
+  owl:inverseOf mssql1:tools_has_file_format_tool_link ;
+.
+mssql1:dbo_file_format_tool_link_tool_type_id
+  owl:inverseOf mssql1:tool_types_has_file_format_tool_link ;
+.
+mssql1:dbo_file_formats_disclosure_id
+  owl:inverseOf mssql1:format_disclosures_has_file_formats ;
+.
+mssql1:dbo_file_formats_puid_type_id
+  owl:inverseOf mssql1:puid_type_has_file_formats ;
+.
+mssql1:dbo_file_formats_source_id
+  owl:inverseOf mssql1:actors_has_file_formats ;
+.
+mssql1:dbo_format_aliases_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_aliases ;
+.
+mssql1:dbo_format_byte_order_link_byte_order_id
+  owl:inverseOf mssql1:byte_orders_has_format_byte_order_link ;
+.
+mssql1:dbo_format_byte_order_link_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_byte_order_link ;
+.
+mssql1:dbo_format_compression_types_compression_id
+  owl:inverseOf mssql1:compression_types_has_format_compression_types ;
+.
+mssql1:dbo_format_compression_types_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_compression_types ;
+.
+mssql1:dbo_format_developers_developer_id
+  owl:inverseOf mssql1:actors_has_format_developers ;
+.
+mssql1:dbo_format_developers_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_developers ;
+.
+mssql1:dbo_format_documentation_document_id
+  owl:inverseOf mssql1:documents_has_format_documentation ;
+.
+mssql1:dbo_format_documentation_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_documentation ;
+.
+mssql1:dbo_format_encodings_encoding_id
+  owl:inverseOf mssql1:encoding_has_format_encodings ;
+.
+mssql1:dbo_format_encodings_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_encodings ;
+.
+mssql1:dbo_format_environment_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_environment ;
+.
+mssql1:dbo_format_environment_technical_environment_id
+  owl:inverseOf mssql1:technical_environment_has_format_environment ;
+.
+mssql1:dbo_format_families_parent_family_id
+  owl:inverseOf mssql1:format_families_has_format_families ;
+.
+mssql1:dbo_format_family_link_family_id
+  owl:inverseOf mssql1:format_families_has_format_family_link ;
+.
+mssql1:dbo_format_family_link_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_family_link ;
+.
+mssql1:dbo_format_identifiers_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_identifiers ;
+.
+mssql1:dbo_format_identifiers_identifier_type_id
+  owl:inverseOf mssql1:format_identifier_types_has_format_identifiers ;
+.
+mssql1:dbo_format_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_format_identifiers ;
+.
+mssql1:dbo_format_internal_signature_link_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_internal_signature_link ;
+.
+mssql1:dbo_format_internal_signature_link_signature_id
+  owl:inverseOf mssql1:internal_signatures_has_format_internal_signature_link ;
+.
+mssql1:dbo_format_ipr_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_ipr ;
+.
+mssql1:dbo_format_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_format_ipr ;
+.
+mssql1:dbo_format_relationships_relationship_type_id
+  owl:inverseOf mssql1:format_relationship_types_has_format_relationships ;
+.
+mssql1:dbo_format_relationships_source_id
+  owl:inverseOf mssql1:file_formats_has_format_relationships ;
+.
+mssql1:dbo_format_relationships_target_id
+  owl:inverseOf mssql1:file_formats_has_format_relationships ;
+.
+mssql1:dbo_format_support_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_support ;
+.
+mssql1:dbo_format_support_support_id
+  owl:inverseOf mssql1:actors_has_format_support ;
+.
+mssql1:dbo_format_type_link_file_format_id
+  owl:inverseOf mssql1:file_formats_has_format_type_link ;
+.
+mssql1:dbo_format_type_link_format_type_id
+  owl:inverseOf mssql1:format_types_has_format_type_link ;
+.
+mssql1:dbo_hardware_aliases_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_aliases ;
+.
+mssql1:dbo_hardware_component_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_component ;
+.
+mssql1:dbo_hardware_developers_developer_id
+  owl:inverseOf mssql1:actors_has_hardware_developers ;
+.
+mssql1:dbo_hardware_developers_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_developers ;
+.
+mssql1:dbo_hardware_documentation_document_id
+  owl:inverseOf mssql1:documents_has_hardware_documentation ;
+.
+mssql1:dbo_hardware_documentation_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_documentation ;
+.
+mssql1:dbo_hardware_family_link_family_id
+  owl:inverseOf mssql1:hardware_families_has_hardware_family_link ;
+.
+mssql1:dbo_hardware_family_link_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_family_link ;
+.
+mssql1:dbo_hardware_images_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_images ;
+.
+mssql1:dbo_hardware_ipr_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_ipr ;
+.
+mssql1:dbo_hardware_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_hardware_ipr ;
+.
+mssql1:dbo_hardware_puid_type_id
+  owl:inverseOf mssql1:puid_type_has_hardware ;
+.
+mssql1:dbo_hardware_support_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_support ;
+.
+mssql1:dbo_hardware_support_support_id
+  owl:inverseOf mssql1:actors_has_hardware_support ;
+.
+mssql1:dbo_hardware_type_link_hardware_id
+  owl:inverseOf mssql1:hardware_has_hardware_type_link ;
+.
+mssql1:dbo_hardware_type_link_hardware_type_id
+  owl:inverseOf mssql1:hardware_type_has_hardware_type_link ;
+.
+mssql1:dbo_inherent_property_format_id
+  owl:inverseOf mssql1:file_formats_has_inherent_property ;
+.
+mssql1:dbo_inherent_property_options_property_id
+  owl:inverseOf mssql1:property_has_inherent_property_options ;
+.
+mssql1:dbo_inherent_property_options_risk_id
+  owl:inverseOf mssql1:inherent_property_risk_value_has_inherent_property_options ;
+.
+mssql1:dbo_inherent_property_property_id
+  owl:inverseOf mssql1:property_has_inherent_property ;
+.
+mssql1:dbo_inherent_property_selected_option_id
+  owl:inverseOf mssql1:inherent_property_options_has_inherent_property ;
+.
+mssql1:dbo_instance_numerical_property_risk_instance_property_id
+  owl:inverseOf mssql1:instance_property_has_instance_numerical_property_risk ;
+.
+mssql1:dbo_instance_property_format_id
+  owl:inverseOf mssql1:file_formats_has_instance_property ;
+.
+mssql1:dbo_instance_property_measurement_instance_property_id
+  owl:inverseOf mssql1:instance_property_has_instance_property_measurement ;
+.
+mssql1:dbo_instance_property_measurement_tool_data_id
+  owl:inverseOf mssql1:tool_data_has_instance_property_measurement ;
+.
+mssql1:dbo_instance_property_measurement_tool_id
+  owl:inverseOf mssql1:tools_has_instance_property_measurement ;
+.
+mssql1:dbo_instance_property_property_id
+  owl:inverseOf mssql1:property_has_instance_property ;
+.
+mssql1:dbo_instance_property_risk_instance_property_id
+  owl:inverseOf mssql1:instance_property_has_instance_property_risk ;
+.
+mssql1:dbo_internal_signatures_source_id
+  owl:inverseOf mssql1:actors_has_internal_signatures ;
+.
+mssql1:dbo_ipr_identifiers_identifier_type_id
+  owl:inverseOf mssql1:ipr_identifier_types_has_ipr_identifiers ;
+.
+mssql1:dbo_ipr_identifiers_ipr_id
+  owl:inverseOf mssql1:ipr_has_ipr_identifiers ;
+.
+mssql1:dbo_ipr_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_ipr_identifiers ;
+.
+mssql1:dbo_ipr_ipr_type_id
+  owl:inverseOf mssql1:ipr_types_has_ipr ;
+.
+mssql1:dbo_ipr_jurisdiction_id
+  owl:inverseOf mssql1:ipr_jurisdictions_has_ipr ;
+.
+mssql1:dbo_ipr_owners_ipr_id
+  owl:inverseOf mssql1:ipr_has_ipr_owners ;
+.
+mssql1:dbo_ipr_owners_owner_id
+  owl:inverseOf mssql1:actors_has_ipr_owners ;
+.
+mssql1:dbo_ipr_source_id
+  owl:inverseOf mssql1:actors_has_ipr ;
+.
+mssql1:dbo_migration_pathway_approval_approved_by
+  owl:inverseOf mssql1:actors_has_migration_pathway_approval ;
+.
+mssql1:dbo_migration_pathway_approval_migration_pathway_id
+  owl:inverseOf mssql1:migration_pathway_has_migration_pathway_approval ;
+.
+mssql1:dbo_migration_pathway_approval_migration_pathway_type_id
+  owl:inverseOf mssql1:migration_pathway_types_has_migration_pathway_approval ;
+.
+mssql1:dbo_migration_pathway_orig_file_format_id
+  owl:inverseOf mssql1:file_formats_has_migration_pathway ;
+.
+mssql1:dbo_migration_pathway_property_approval_approved_by
+  owl:inverseOf mssql1:actors_has_migration_pathway_property_approval ;
+.
+mssql1:dbo_migration_pathway_property_approval_migration_pathway_property_verification_id
+  owl:inverseOf mssql1:migration_pathway_property_verification_has_migration_pathway_property_approval ;
+.
+mssql1:dbo_migration_pathway_property_approval_migration_pathway_type_id
+  owl:inverseOf mssql1:migration_pathway_types_has_migration_pathway_property_approval ;
+.
+mssql1:dbo_migration_pathway_property_verification_migration_pathway_id
+  owl:inverseOf mssql1:migration_pathway_has_migration_pathway_property_verification ;
+.
+mssql1:dbo_migration_pathway_property_verification_orig_instance_property_id
+  owl:inverseOf mssql1:instance_property_has_migration_pathway_property_verification ;
+.
+mssql1:dbo_migration_pathway_property_verification_target_instance_property_id
+  owl:inverseOf mssql1:instance_property_has_migration_pathway_property_verification ;
+.
+mssql1:dbo_migration_pathway_target_file_format_id
+  owl:inverseOf mssql1:file_formats_has_migration_pathway ;
+.
+mssql1:dbo_process_documentation_document_id
+  owl:inverseOf mssql1:documents_has_process_documentation ;
+.
+mssql1:dbo_process_documentation_software_id_file_format_id_process_type_id
+  owl:inverseOf mssql1:processes_has_process_documentation ;
+.
+mssql1:dbo_processes_file_format_id
+  owl:inverseOf mssql1:file_formats_has_processes ;
+.
+mssql1:dbo_processes_invariance_id
+  owl:inverseOf mssql1:invariances_has_processes ;
+.
+mssql1:dbo_processes_process_type_id
+  owl:inverseOf mssql1:process_types_has_processes ;
+.
+mssql1:dbo_processes_software_id
+  owl:inverseOf mssql1:software_has_processes ;
+.
+mssql1:dbo_processes_source_id
+  owl:inverseOf mssql1:actors_has_processes ;
+.
+mssql1:dbo_reference_file_documentation_document_id
+  owl:inverseOf mssql1:documents_has_reference_file_documentation ;
+.
+mssql1:dbo_reference_file_documentation_reference_file_id
+  owl:inverseOf mssql1:reference_files_has_reference_file_documentation ;
+.
+mssql1:dbo_reference_file_identifiers_identifier_type_id
+  owl:inverseOf mssql1:reference_file_identifier_types_has_reference_file_identifiers ;
+.
+mssql1:dbo_reference_file_identifiers_reference_file_id
+  owl:inverseOf mssql1:reference_files_has_reference_file_identifiers ;
+.
+mssql1:dbo_reference_file_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_reference_file_identifiers ;
+.
+mssql1:dbo_reference_file_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_reference_file_ipr ;
+.
+mssql1:dbo_reference_file_ipr_reference_file_id
+  owl:inverseOf mssql1:reference_files_has_reference_file_ipr ;
+.
+mssql1:dbo_reference_files_file_format_id
+  owl:inverseOf mssql1:file_formats_has_reference_files ;
+.
+mssql1:dbo_reference_files_source_id
+  owl:inverseOf mssql1:actors_has_reference_files ;
+.
+mssql1:dbo_required_hardware_for_hardware_hardware_id
+  owl:inverseOf mssql1:hardware_has_required_hardware_for_hardware ;
+.
+mssql1:dbo_required_hardware_for_hardware_qualifier_id
+  owl:inverseOf mssql1:requirement_qualifiers_has_required_hardware_for_hardware ;
+.
+mssql1:dbo_required_hardware_for_hardware_req_hardware_id
+  owl:inverseOf mssql1:hardware_has_required_hardware_for_hardware ;
+.
+mssql1:dbo_required_hardware_for_software_qualifier_id
+  owl:inverseOf mssql1:requirement_qualifiers_has_required_hardware_for_software ;
+.
+mssql1:dbo_required_hardware_for_software_req_hardware_id
+  owl:inverseOf mssql1:hardware_has_required_hardware_for_software ;
+.
+mssql1:dbo_required_hardware_for_software_software_id
+  owl:inverseOf mssql1:software_has_required_hardware_for_software ;
+.
+mssql1:dbo_required_software_for_hardware_hardware_id
+  owl:inverseOf mssql1:hardware_has_required_software_for_hardware ;
+.
+mssql1:dbo_required_software_for_hardware_qualifier_id
+  owl:inverseOf mssql1:requirement_qualifiers_has_required_software_for_hardware ;
+.
+mssql1:dbo_required_software_for_hardware_req_software_id
+  owl:inverseOf mssql1:software_has_required_software_for_hardware ;
+.
+mssql1:dbo_required_software_for_software_qualifier_id
+  owl:inverseOf mssql1:requirement_qualifiers_has_required_software_for_software ;
+.
+mssql1:dbo_required_software_for_software_req_software_id
+  owl:inverseOf mssql1:software_has_required_software_for_software ;
+.
+mssql1:dbo_required_software_for_software_software_id
+  owl:inverseOf mssql1:software_has_required_software_for_software ;
+.
+mssql1:dbo_software_aliases_software_id
+  owl:inverseOf mssql1:software_has_software_aliases ;
+.
+mssql1:dbo_software_component_software_id
+  owl:inverseOf mssql1:software_has_software_component ;
+.
+mssql1:dbo_software_developers_developer_id
+  owl:inverseOf mssql1:actors_has_software_developers ;
+.
+mssql1:dbo_software_developers_software_id
+  owl:inverseOf mssql1:software_has_software_developers ;
+.
+mssql1:dbo_software_documentation_document_id
+  owl:inverseOf mssql1:documents_has_software_documentation ;
+.
+mssql1:dbo_software_documentation_software_id
+  owl:inverseOf mssql1:software_has_software_documentation ;
+.
+mssql1:dbo_software_family_link_family_id
+  owl:inverseOf mssql1:software_families_has_software_family_link ;
+.
+mssql1:dbo_software_family_link_software_id
+  owl:inverseOf mssql1:software_has_software_family_link ;
+.
+mssql1:dbo_software_identifiers_identifier_type_id
+  owl:inverseOf mssql1:software_identifier_types_has_software_identifiers ;
+.
+mssql1:dbo_software_identifiers_software_id
+  owl:inverseOf mssql1:software_has_software_identifiers ;
+.
+mssql1:dbo_software_identifiers_source_id
+  owl:inverseOf mssql1:actors_has_software_identifiers ;
+.
+mssql1:dbo_software_images_software_id
+  owl:inverseOf mssql1:software_has_software_images ;
+.
+mssql1:dbo_software_ipr_ipr_id
+  owl:inverseOf mssql1:ipr_has_software_ipr ;
+.
+mssql1:dbo_software_ipr_software_id
+  owl:inverseOf mssql1:software_has_software_ipr ;
+.
+mssql1:dbo_software_languages_language_id
+  owl:inverseOf mssql1:languages_has_software_languages ;
+.
+mssql1:dbo_software_languages_software_id
+  owl:inverseOf mssql1:software_has_software_languages ;
+.
+mssql1:dbo_software_maintainers_maintainer_id
+  owl:inverseOf mssql1:actors_has_software_maintainers ;
+.
+mssql1:dbo_software_maintainers_software_id
+  owl:inverseOf mssql1:software_has_software_maintainers ;
+.
+mssql1:dbo_software_puid_type_id
+  owl:inverseOf mssql1:puid_type_has_software ;
+.
+mssql1:dbo_software_relationships_relationship_type_id
+  owl:inverseOf mssql1:software_relationship_types_has_software_relationships ;
+.
+mssql1:dbo_software_relationships_source_id
+  owl:inverseOf mssql1:software_has_software_relationships ;
+.
+mssql1:dbo_software_relationships_target_id
+  owl:inverseOf mssql1:software_has_software_relationships ;
+.
+mssql1:dbo_software_source_id
+  owl:inverseOf mssql1:actors_has_software ;
+.
+mssql1:dbo_software_storage_media_software_id
+  owl:inverseOf mssql1:software_has_software_storage_media ;
+.
+mssql1:dbo_software_storage_media_storage_medium_id
+  owl:inverseOf mssql1:storage_media_has_software_storage_media ;
+.
+mssql1:dbo_software_tools_link_software_id
+  owl:inverseOf mssql1:software_has_software_tools_link ;
+.
+mssql1:dbo_software_tools_link_tool_id
+  owl:inverseOf mssql1:tools_has_software_tools_link ;
+.
+mssql1:dbo_software_type_link_software_id
+  owl:inverseOf mssql1:software_has_software_type_link ;
+.
+mssql1:dbo_software_type_link_software_type_id
+  owl:inverseOf mssql1:software_types_has_software_type_link ;
+.
+mssql1:dbo_xml_dtd_locations_xml_dtd_id
+  owl:inverseOf mssql1:xml_dtds_has_xml_dtd_locations ;
+.
+mssql1:dbo_xml_schema_locations_xml_schema_id
+  owl:inverseOf mssql1:xml_schemas_has_xml_schema_locations ;
+.
+mssql1:document_identifier_types_has_document_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "document_identifier_types_has_document_identifiers" ;
+.
+mssql1:document_relationship_types_has_document_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "document_relationship_types_has_document_relationships" ;
+.
+mssql1:document_types_has_documents
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "document_types_has_documents" ;
+.
+mssql1:documents_has_compression_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_compression_documentation" ;
+.
+mssql1:documents_has_document_authors
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_document_authors" ;
+.
+mssql1:documents_has_document_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_document_identifiers" ;
+.
+mssql1:documents_has_document_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_document_ipr" ;
+.
+mssql1:documents_has_document_publishers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_document_publishers" ;
+.
+mssql1:documents_has_document_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_document_relationships" ;
+.
+mssql1:documents_has_encoding_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_encoding_documentation" ;
+.
+mssql1:documents_has_format_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_format_documentation" ;
+.
+mssql1:documents_has_hardware_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_hardware_documentation" ;
+.
+mssql1:documents_has_process_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_process_documentation" ;
+.
+mssql1:documents_has_reference_file_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_reference_file_documentation" ;
+.
+mssql1:documents_has_software_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "documents_has_software_documentation" ;
+.
+mssql1:encoding_families_has_encoding_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_families_has_encoding_family_link" ;
+.
+mssql1:encoding_has_encoding_aliases
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_aliases" ;
+.
+mssql1:encoding_has_encoding_developer
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_developer" ;
+.
+mssql1:encoding_has_encoding_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_documentation" ;
+.
+mssql1:encoding_has_encoding_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_family_link" ;
+.
+mssql1:encoding_has_encoding_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_identifiers" ;
+.
+mssql1:encoding_has_encoding_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_ipr" ;
+.
+mssql1:encoding_has_encoding_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_relationships" ;
+.
+mssql1:encoding_has_encoding_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_encoding_support" ;
+.
+mssql1:encoding_has_format_encodings
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_has_format_encodings" ;
+.
+mssql1:encoding_identifier_types_has_encoding_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_identifier_types_has_encoding_identifiers" ;
+.
+mssql1:encoding_relationship_types_has_encoding_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "encoding_relationship_types_has_encoding_relationships" ;
+.
+mssql1:external_signature_types_has_external_signatures
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "external_signature_types_has_external_signatures" ;
+.
+mssql1:file_formats_has_component_manifestation_formats_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_component_manifestation_formats_link" ;
+.
+mssql1:file_formats_has_external_signatures
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_external_signatures" ;
+.
+mssql1:file_formats_has_file_format_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_file_format_tool_link" ;
+.
+mssql1:file_formats_has_format_aliases
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_aliases" ;
+.
+mssql1:file_formats_has_format_byte_order_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_byte_order_link" ;
+.
+mssql1:file_formats_has_format_compression_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_compression_types" ;
+.
+mssql1:file_formats_has_format_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_developers" ;
+.
+mssql1:file_formats_has_format_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_documentation" ;
+.
+mssql1:file_formats_has_format_encodings
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_encodings" ;
+.
+mssql1:file_formats_has_format_environment
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_environment" ;
+.
+mssql1:file_formats_has_format_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_family_link" ;
+.
+mssql1:file_formats_has_format_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_identifiers" ;
+.
+mssql1:file_formats_has_format_internal_signature_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_internal_signature_link" ;
+.
+mssql1:file_formats_has_format_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_ipr" ;
+.
+mssql1:file_formats_has_format_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_relationships" ;
+.
+mssql1:file_formats_has_format_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_support" ;
+.
+mssql1:file_formats_has_format_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_format_type_link" ;
+.
+mssql1:file_formats_has_inherent_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_inherent_property" ;
+.
+mssql1:file_formats_has_instance_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_instance_property" ;
+.
+mssql1:file_formats_has_migration_pathway
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_migration_pathway" ;
+.
+mssql1:file_formats_has_processes
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_processes" ;
+.
+mssql1:file_formats_has_reference_files
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "file_formats_has_reference_files" ;
+.
+mssql1:format_disclosures_has_file_formats
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_disclosures_has_file_formats" ;
+.
+mssql1:format_families_has_format_families
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_families_has_format_families" ;
+.
+mssql1:format_families_has_format_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_families_has_format_family_link" ;
+.
+mssql1:format_identifier_types_has_format_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_identifier_types_has_format_identifiers" ;
+.
+mssql1:format_relationship_types_has_format_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_relationship_types_has_format_relationships" ;
+.
+mssql1:format_types_has_format_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "format_types_has_format_type_link" ;
+.
+mssql1:hardware_families_has_hardware_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_families_has_hardware_family_link" ;
+.
+mssql1:hardware_has_hardware_aliases
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_aliases" ;
+.
+mssql1:hardware_has_hardware_component
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_component" ;
+.
+mssql1:hardware_has_hardware_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_developers" ;
+.
+mssql1:hardware_has_hardware_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_documentation" ;
+.
+mssql1:hardware_has_hardware_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_family_link" ;
+.
+mssql1:hardware_has_hardware_images
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_images" ;
+.
+mssql1:hardware_has_hardware_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_ipr" ;
+.
+mssql1:hardware_has_hardware_support
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_support" ;
+.
+mssql1:hardware_has_hardware_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_hardware_type_link" ;
+.
+mssql1:hardware_has_required_hardware_for_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_required_hardware_for_hardware" ;
+.
+mssql1:hardware_has_required_hardware_for_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_required_hardware_for_software" ;
+.
+mssql1:hardware_has_required_software_for_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_has_required_software_for_hardware" ;
+.
+mssql1:hardware_type_has_hardware_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "hardware_type_has_hardware_type_link" ;
+.
+mssql1:inherent_property_options_has_inherent_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "inherent_property_options_has_inherent_property" ;
+.
+mssql1:inherent_property_risk_value_has_inherent_property_options
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "inherent_property_risk_value_has_inherent_property_options" ;
+.
+mssql1:instance_property_has_instance_numerical_property_risk
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "instance_property_has_instance_numerical_property_risk" ;
+.
+mssql1:instance_property_has_instance_property_measurement
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "instance_property_has_instance_property_measurement" ;
+.
+mssql1:instance_property_has_instance_property_risk
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "instance_property_has_instance_property_risk" ;
+.
+mssql1:instance_property_has_migration_pathway_property_verification
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "instance_property_has_migration_pathway_property_verification" ;
+.
+mssql1:internal_signatures_has_byte_sequences
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "internal_signatures_has_byte_sequences" ;
+.
+mssql1:internal_signatures_has_format_internal_signature_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "internal_signatures_has_format_internal_signature_link" ;
+.
+mssql1:invariances_has_processes
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "invariances_has_processes" ;
+.
+mssql1:ipr_has_compression_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_compression_ipr" ;
+.
+mssql1:ipr_has_document_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_document_ipr" ;
+.
+mssql1:ipr_has_encoding_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_encoding_ipr" ;
+.
+mssql1:ipr_has_format_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_format_ipr" ;
+.
+mssql1:ipr_has_hardware_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_hardware_ipr" ;
+.
+mssql1:ipr_has_ipr_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_ipr_identifiers" ;
+.
+mssql1:ipr_has_ipr_owners
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_ipr_owners" ;
+.
+mssql1:ipr_has_reference_file_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_reference_file_ipr" ;
+.
+mssql1:ipr_has_software_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_has_software_ipr" ;
+.
+mssql1:ipr_identifier_types_has_ipr_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_identifier_types_has_ipr_identifiers" ;
+.
+mssql1:ipr_jurisdictions_has_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_jurisdictions_has_ipr" ;
+.
+mssql1:ipr_types_has_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "ipr_types_has_ipr" ;
+.
+mssql1:languages_has_software_languages
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "languages_has_software_languages" ;
+.
+mssql1:lossiness_has_compression_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "lossiness_has_compression_types" ;
+.
+mssql1:migration_pathway_has_migration_pathway_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "migration_pathway_has_migration_pathway_approval" ;
+.
+mssql1:migration_pathway_has_migration_pathway_property_verification
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "migration_pathway_has_migration_pathway_property_verification" ;
+.
+mssql1:migration_pathway_property_verification_has_migration_pathway_property_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "migration_pathway_property_verification_has_migration_pathway_property_approval" ;
+.
+mssql1:migration_pathway_types_has_migration_pathway_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "migration_pathway_types_has_migration_pathway_approval" ;
+.
+mssql1:migration_pathway_types_has_migration_pathway_property_approval
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "migration_pathway_types_has_migration_pathway_property_approval" ;
+.
+mssql1:position_types_has_byte_sequences
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "position_types_has_byte_sequences" ;
+.
+mssql1:process_types_has_processes
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "process_types_has_processes" ;
+.
+mssql1:processes_has_process_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "processes_has_process_documentation" ;
+.
+mssql1:property_has_component_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "property_has_component_property" ;
+.
+mssql1:property_has_inherent_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "property_has_inherent_property" ;
+.
+mssql1:property_has_inherent_property_options
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "property_has_inherent_property_options" ;
+.
+mssql1:property_has_instance_property
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "property_has_instance_property" ;
+.
+mssql1:puid_type_has_compression_types
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "puid_type_has_compression_types" ;
+.
+mssql1:puid_type_has_encoding
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "puid_type_has_encoding" ;
+.
+mssql1:puid_type_has_file_formats
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "puid_type_has_file_formats" ;
+.
+mssql1:puid_type_has_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "puid_type_has_hardware" ;
+.
+mssql1:puid_type_has_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "puid_type_has_software" ;
+.
+mssql1:reference_file_identifier_types_has_reference_file_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "reference_file_identifier_types_has_reference_file_identifiers" ;
+.
+mssql1:reference_files_has_reference_file_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "reference_files_has_reference_file_documentation" ;
+.
+mssql1:reference_files_has_reference_file_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "reference_files_has_reference_file_identifiers" ;
+.
+mssql1:reference_files_has_reference_file_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "reference_files_has_reference_file_ipr" ;
+.
+mssql1:requirement_qualifiers_has_required_hardware_for_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "requirement_qualifiers_has_required_hardware_for_hardware" ;
+.
+mssql1:requirement_qualifiers_has_required_hardware_for_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "requirement_qualifiers_has_required_hardware_for_software" ;
+.
+mssql1:requirement_qualifiers_has_required_software_for_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "requirement_qualifiers_has_required_software_for_hardware" ;
+.
+mssql1:requirement_qualifiers_has_required_software_for_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "requirement_qualifiers_has_required_software_for_software" ;
+.
+mssql1:software_families_has_software_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_families_has_software_family_link" ;
+.
+mssql1:software_has_processes
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_processes" ;
+.
+mssql1:software_has_required_hardware_for_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_required_hardware_for_software" ;
+.
+mssql1:software_has_required_software_for_hardware
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_required_software_for_hardware" ;
+.
+mssql1:software_has_required_software_for_software
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_required_software_for_software" ;
+.
+mssql1:software_has_software_aliases
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_aliases" ;
+.
+mssql1:software_has_software_component
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_component" ;
+.
+mssql1:software_has_software_developers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_developers" ;
+.
+mssql1:software_has_software_documentation
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_documentation" ;
+.
+mssql1:software_has_software_family_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_family_link" ;
+.
+mssql1:software_has_software_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_identifiers" ;
+.
+mssql1:software_has_software_images
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_images" ;
+.
+mssql1:software_has_software_ipr
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_ipr" ;
+.
+mssql1:software_has_software_languages
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_languages" ;
+.
+mssql1:software_has_software_maintainers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_maintainers" ;
+.
+mssql1:software_has_software_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_relationships" ;
+.
+mssql1:software_has_software_storage_media
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_storage_media" ;
+.
+mssql1:software_has_software_tools_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_tools_link" ;
+.
+mssql1:software_has_software_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_has_software_type_link" ;
+.
+mssql1:software_identifier_types_has_software_identifiers
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_identifier_types_has_software_identifiers" ;
+.
+mssql1:software_relationship_types_has_software_relationships
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_relationship_types_has_software_relationships" ;
+.
+mssql1:software_types_has_software_type_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "software_types_has_software_type_link" ;
+.
+mssql1:storage_media_has_software_storage_media
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "storage_media_has_software_storage_media" ;
+.
+mssql1:technical_environment_has_format_environment
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "technical_environment_has_format_environment" ;
+.
+mssql1:tool_data_has_instance_property_measurement
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tool_data_has_instance_property_measurement" ;
+.
+mssql1:tool_types_has_file_format_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tool_types_has_file_format_tool_link" ;
+.
+mssql1:tools_has_component_identification_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tools_has_component_identification_tool_link" ;
+.
+mssql1:tools_has_component_measurement_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tools_has_component_measurement_tool_link" ;
+.
+mssql1:tools_has_file_format_tool_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tools_has_file_format_tool_link" ;
+.
+mssql1:tools_has_instance_property_measurement
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tools_has_instance_property_measurement" ;
+.
+mssql1:tools_has_software_tools_link
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "tools_has_software_tools_link" ;
+.
+mssql1:xml_dtds_has_xml_dtd_locations
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "xml_dtds_has_xml_dtd_locations" ;
+.
+mssql1:xml_schemas_has_xml_schema_locations
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "xml_schemas_has_xml_schema_locations" ;
+.

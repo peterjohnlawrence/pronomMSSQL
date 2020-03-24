@@ -1,0 +1,720 @@
+tablename	modifiedPropertyname	propertyDescription	propertyInstances
+Agent	AIM chat ID	An AIM chat ID	0
+Agent	ICQ chat ID	An ICQ chat ID	0
+Agent	MSN chat ID	An MSN chat ID	0
+Agent	Skype ID	A Skype ID	0
+Agent	Yahoo chat ID	A Yahoo chat ID	0
+Agent	account	Indicates an account held by this agent.	0
+Agent	account	Indicates an account held by this agent.	0
+Agent	age	The age in years of some agent.	0
+Agent	birthday	The birthday of this Agent, represented in mm-dd string form, eg. '12-31'.	0
+Agent	gender	The gender of this Agent (typically but not necessarily 'male' or 'female').	0
+Agent	interest	A page about a topic of interest to this person.	0
+Agent	jabber ID	A jabber ID for something.	0
+Agent	made	Something that was made by this agent.	0
+Agent	openid	An OpenID for an Agent.	0
+Agent	personal mailbox	A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.	0
+Agent	sha1sum of a personal mailbox URI name	The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.	0
+Agent	status	A string expressing what the user is happy for the general public (normally) to know about their current activity.	0
+Agent	tipjar	A tipjar document for this agent, describing means for payment and reward.	0
+Agent	topic_interest	A thing of interest to this person.	0
+Agent	weblog	A weblog of some thing (whether person, group, company etc.).	0
+Class	constraint	Links a class with constraints on its instances. The values of this property are "axioms" expressed as CONSTRUCT or ASK queries where the variable ?this refers to the instances of the surrounding class. ASK queries must evaluate to false for each member of this class - returning true means that the instance ?this violates the constraint. CONSTRUCT queries must create instances of spin:ConstraintViolation to provide details on the reason for the violation.	6
+Class	constructor	Can be used to attach a "constructor" to a class. A constructor is a SPARQL CONSTRUCT query or INSERT/DELETE Update operation that can add initial values to the current instance. At execution time, the variable ?this is bound to the current instance. Tools can call constructors of a class and its superclasses when an instance of a class has been created. Constructors will also be used to initialize resources that have received a new rdf:type triple as a result of spin:rules firing.	1
+Class	equivalentClass	The property that determines that two given classes are equivalent, and that is used to specify datatype definitions.	5
+Class	intersectionOf	The property that determines the collection of classes or data ranges that build an intersection.	0
+Class	oneOf	The property that determines the collection of individuals or data values that build an enumeration.	0
+Class	rule	An inferencing rule attached to a class. Rules are expressed as CONSTRUCT queries or INSERT/DELETE operations where the variable ?this will be bound to the current instance of the class. These inferences can be used to derive new values from existing values at the instance.	0
+Class	subClassOf	The subject is a subclass of a class.	292
+Class	unionOf	The property that determines the collection of classes or data ranges that build a union.	0
+Document	primary topic	The primary topic of some page or document.	0
+Document	sha1sum (hex)	A sha1sum hash, in hex.	0
+Document	topic	A topic of some page or document.	0
+Group	member	Indicates a member of a Group	0
+Image	depicts	A thing depicted in this representation.	0
+Image	thumbnail	A derived thumbnail image.	0
+Online Account	account name	Indicates the name (identifier) associated with this online account.	0
+Online Account	account service homepage	Indicates a homepage of the service provide for this online account.	0
+Person	Surname	The surname of some person.	0
+Person	current project	A current project this person works on.	0
+Person	familyName	The family name of some person.	0
+Person	family_name	The family name of some person.	0
+Person	firstName	The first name of a person.	0
+Person	geekcode	A textual geekcode for this person, see http://www.geekcode.com/geek.html	0
+Person	image	An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage).	0
+Person	knows	A person known by this person (indicating some level of reciprocated interaction between the parties).	0
+Person	lastName	The last name of a person.	0
+Person	myersBriggs	A Myers Briggs (MBTI) personality classification.	0
+Person	past project	A project this person has previously worked on.	0
+Person	plan	A .plan comment, in the tradition of finger and '.plan' files.	0
+Person	publications	A link to the publications of this person.	0
+Person	schoolHomepage	A homepage of a school attended by the person.	0
+Person	work info homepage	A work info homepage of some person; a page about their work for some organization.	0
+Person	workplace homepage	A workplace homepage of some person; the homepage of an organization they work for.	0
+Spatial Thing	based near	A location that something is based near, for some broadly human notion of near.	0
+Thing	bottomDataProperty	The data property that does not relate any individual to any data value.	0
+Thing	bottomObjectProperty	The object property that does not relate any two individuals.	0
+Thing	depiction	A depiction of some thing.	0
+Thing	differentFrom	The property that determines that two given individuals are different.	0
+Thing	funded by	An organization funding a project or person.	0
+Thing	homepage	A homepage for some thing.	0
+Thing	is primary topic of	A document that this thing is the primary topic of.	0
+Thing	logo	A logo representing some thing.	0
+Thing	maker	An agent that  made this thing.	0
+Thing	name	A name for some thing.	0
+Thing	page	A page or document about this thing.	0
+Thing	sameAs	The property that determines that two given individuals are equal.	0
+Thing	theme	A theme.	0
+Thing	topDataProperty	The data property that relates every individual to every data value.	0
+Thing	topObjectProperty	The object property that relates every two individuals.	0
+dbo.actor_history	actor_history_id		0
+dbo.actor_history	actor_id		0
+dbo.actor_history	event_date		0
+dbo.actor_history	event_text		0
+dbo.actor_types	actor_type_id		11
+dbo.actor_types	actor_type_text		11
+dbo.actors	actor_type_id	Type of actor	216
+dbo.actors	address_text	Full postal contact address for the actor	198
+dbo.actors	contact_email_text	Contact email address	78
+dbo.actors	country_code_text	Country element of the address	174
+dbo.actors	job_title_text	Job title of an individual having a cited role	3
+dbo.actors	last_updated_date	Date and time at which the information was last updated	216
+dbo.actors	name_text	Name of an individual having a cited role	82
+dbo.actors	organisation_name_text	Name of an organisation having a cited role	215
+dbo.actors	provenance_text	Informative note on the provenance	9
+dbo.actors	source_date	Date and time at which the information was added to PRONOM	216
+dbo.actors	source_id	Actor entity which provided the information	216
+dbo.actors	support_website_text		71
+dbo.actors	telephone_text	Full international contact telephone number	127
+dbo.actors	website_text	Contact website URL	150
+dbo.availability	availability_id		3
+dbo.availability	availability_text		3
+dbo.byte_orders	byte_order_id		2
+dbo.byte_orders	byte_order_text		2
+dbo.byte_sequences	big_endian_flag		143
+dbo.byte_sequences	byte_sequence		1747
+dbo.byte_sequences	byte_sequence_id		1747
+dbo.byte_sequences	indirect_offset_length		0
+dbo.byte_sequences	indirect_offset_location		0
+dbo.byte_sequences	max_offset		942
+dbo.byte_sequences	offset		1622
+dbo.byte_sequences	position_type_id		1747
+dbo.byte_sequences	signature_id		1747
+dbo.component_identification_tool_link	component_manifestation_type_id		11
+dbo.component_identification_tool_link	priority		11
+dbo.component_identification_tool_link	tool_id		11
+dbo.component_manifestation_formats_link	component_manifestation_type_id		42
+dbo.component_manifestation_formats_link	file_format_id		42
+dbo.component_manifestation_types	component_manifestation_type		12
+dbo.component_manifestation_types	component_manifestation_type_id		12
+dbo.component_manifestation_types	component_type_id		12
+dbo.component_manifestation_types	description		12
+dbo.component_measurement_tool_link	component_manifestation_type_id		8
+dbo.component_measurement_tool_link	priority		8
+dbo.component_measurement_tool_link	tool_id		8
+dbo.component_property	component_type_id		4
+dbo.component_property	property_id		4
+dbo.component_types	component_type		7
+dbo.component_types	component_type_id		7
+dbo.component_types	description		7
+dbo.compression_aliases	alias_id		7
+dbo.compression_aliases	compression_id		7
+dbo.compression_aliases	name_text		7
+dbo.compression_aliases	version_text		0
+dbo.compression_developers	compression_id		4
+dbo.compression_developers	developer_id	Actor responsible for developing the algorithm	4
+dbo.compression_documentation	compression_id		5
+dbo.compression_documentation	document_id	Documentation about the algorithm	5
+dbo.compression_families	description_text		0
+dbo.compression_families	family_id		0
+dbo.compression_families	name_text		0
+dbo.compression_families	note_text		0
+dbo.compression_family_link	compression_id		0
+dbo.compression_family_link	family_id		0
+dbo.compression_identifier_types	identifier_type_id		5
+dbo.compression_identifier_types	identifier_type_text		5
+dbo.compression_identifiers	Identifier_text	Value of the identifier	7
+dbo.compression_identifiers	compression_id		7
+dbo.compression_identifiers	identifier_id	Internal system-generated ID	7
+dbo.compression_identifiers	identifier_type_id	Type of identifier	7
+dbo.compression_identifiers	last_updated_date	Date and time at which the information was last updated	0
+dbo.compression_identifiers	note_text	Informative note about the identifier	0
+dbo.compression_identifiers	provenance_text	Informative note on the provenance	0
+dbo.compression_identifiers	source_date	Date and time at which the information was added to PRONOM	0
+dbo.compression_identifiers	source_id	Actor entity which provided the information	0
+dbo.compression_ipr	compression_id		0
+dbo.compression_ipr	ipr_id	Intellectual property rights which attach to the algorithm	0
+dbo.compression_relationship_types	Inverse_type_name_text		7
+dbo.compression_relationship_types	relationship_type_id		9
+dbo.compression_relationship_types	type_name_text		9
+dbo.compression_relationships	note_text		0
+dbo.compression_relationships	relationship_id		0
+dbo.compression_relationships	relationship_type_id		0
+dbo.compression_relationships	source_id		0
+dbo.compression_relationships	target_id		0
+dbo.compression_support	compression_id		0
+dbo.compression_support	support_id	Actor currently responsible for supporting or maintaining the algorithm	0
+dbo.compression_types	compression_id	Internal system-generated ID	17
+dbo.compression_types	compression_name_text	Preferred name of the algorithm	17
+dbo.compression_types	compression_text	Description of the main characteristics of the algorithm	17
+dbo.compression_types	last_updated_date	Date and time at which the information was last updated	17
+dbo.compression_types	lossiness_id	Identifies whether the algorithm is lossy or lossless	17
+dbo.compression_types	note_text	Informative note about the algorithm	0
+dbo.compression_types	provenance_text	Informative note on the provenance	0
+dbo.compression_types	puid_type_id		17
+dbo.compression_types	puid_value		17
+dbo.compression_types	release_date	Date on which the algorithm was released	9
+dbo.compression_types	source_date	Date and time at which the information was added to PRONOM	17
+dbo.compression_types	source_id	Actor entity which provided the information	17
+dbo.compression_types	version_text		0
+dbo.compression_types	withdrawn_date	Date on which support for the algorithm was, or is due to be, withdrawn	0
+dbo.compression_types	withdrawn_flag		10
+dbo.countries	country_code_text		240
+dbo.countries	country_name_text		240
+dbo.document_authors	author_id		76
+dbo.document_authors	document_id		76
+dbo.document_identifier_types	identifier_type_id		15
+dbo.document_identifier_types	identifier_type_text		15
+dbo.document_identifiers	document_id		43
+dbo.document_identifiers	identifier_id	Internal system-generated ID	43
+dbo.document_identifiers	identifier_text	Value of the identifier	43
+dbo.document_identifiers	identifier_type_id	Type of identifier	43
+dbo.document_identifiers	last_updated_date	Date and time at which the information was last updated	9
+dbo.document_identifiers	note_text	Informative note about the identifier	0
+dbo.document_identifiers	provenance_text	Informative note on the provenance	0
+dbo.document_identifiers	source_date	Date and time at which the information was added to PRONOM	9
+dbo.document_identifiers	source_id	Actor entity which provided the information	9
+dbo.document_ipr	document_id		1
+dbo.document_ipr	ipr_id		1
+dbo.document_publishers	document_id		74
+dbo.document_publishers	publisher_id		74
+dbo.document_relationship_types	inverse_type_name_text		7
+dbo.document_relationship_types	relationship_type_id		9
+dbo.document_relationship_types	type_name_text		9
+dbo.document_relationships	note_text		0
+dbo.document_relationships	relationship_id		0
+dbo.document_relationships	relationship_type_id		0
+dbo.document_relationships	source_id		0
+dbo.document_relationships	target_id		0
+dbo.document_types	document_type_id		3
+dbo.document_types	document_type_text		3
+dbo.documents	availability_id	Classification of the availability of the documentation	72
+dbo.documents	availability_text	Additional information about the documentation availability	3
+dbo.documents	display_text	Bibliographical text to display	72
+dbo.documents	document_id	External identifier which applies to the documentation	72
+dbo.documents	document_note_text	Informative note about the documentation	2
+dbo.documents	document_type_id	Indicates whether the documentation is authoritative, informative or speculative	72
+dbo.documents	last_updated_date	Date and time at which the information was last updated	72
+dbo.documents	provenance_text	Informative note on the provenance	0
+dbo.documents	publication_date	Date of publication	66
+dbo.documents	source_date	Date and time at which the information was added to PRONOM	72
+dbo.documents	source_id	Actor entity which provided the information	72
+dbo.documents	title_text	Title of the documentation	72
+dbo.dtproperties	id		0
+dbo.dtproperties	lvalue		0
+dbo.dtproperties	objectid		0
+dbo.dtproperties	property		0
+dbo.dtproperties	uvalue		0
+dbo.dtproperties	value		0
+dbo.dtproperties	version		0
+dbo.encoding	code_page	Code page for the character set	0
+dbo.encoding	code_unit_width_text	Width of the code unit in bits	0
+dbo.encoding	encoding_form_width_text	Width of the encoding form in code units	0
+dbo.encoding	encoding_id	Internal system-generated ID	28
+dbo.encoding	encoding_name_text	Preferred name of the encoding	28
+dbo.encoding	encoding_text	Description of the main characteristics of the encoding	28
+dbo.encoding	last_updated_date	Date and time at which the information was last updated	28
+dbo.encoding	note_text	Informative note about the encoding	17
+dbo.encoding	provenance_text	Informative note on the provenance	28
+dbo.encoding	puid_type_id		28
+dbo.encoding	puid_value		28
+dbo.encoding	release_date	Date on which the encoding was released	0
+dbo.encoding	source_date	Date and time at which the information was added to PRONOM	28
+dbo.encoding	source_id	Actor entity which provided the information	28
+dbo.encoding	version_text		0
+dbo.encoding	withdrawn_date	Date on which support for the encoding was, or is due to be, withdrawn	0
+dbo.encoding	withdrawn_flag		0
+dbo.encoding_aliases	alias_id	Internal system-generated ID	0
+dbo.encoding_aliases	encoding_id		0
+dbo.encoding_aliases	name_text	Alias by which the encoding is also known	0
+dbo.encoding_aliases	version_text		0
+dbo.encoding_developer	developer_id	Actor responsible for developing the encoding	0
+dbo.encoding_developer	encoding_id		0
+dbo.encoding_documentation	document_id	Documentation about the encoding	0
+dbo.encoding_documentation	encoding_id		0
+dbo.encoding_families	family_id		0
+dbo.encoding_families	family_text		0
+dbo.encoding_families	name_text		0
+dbo.encoding_families	note_text		0
+dbo.encoding_family_link	encoding_id		0
+dbo.encoding_family_link	family_id		0
+dbo.encoding_identifier_types	identifier_type_id		2
+dbo.encoding_identifier_types	identifier_type_text		2
+dbo.encoding_identifiers	encoding_id		0
+dbo.encoding_identifiers	identifier_id	Internal system-generated ID	0
+dbo.encoding_identifiers	identifier_text	Value of the identifier	0
+dbo.encoding_identifiers	identifier_type_id	Type of identifier	0
+dbo.encoding_identifiers	last_updated_date	Date and time at which the information was last updated	0
+dbo.encoding_identifiers	note_text	Informative note about the identifier	0
+dbo.encoding_identifiers	provenance_text	Informative note on the provenance	0
+dbo.encoding_identifiers	source_date	Date and time at which the information was added to PRONOM	0
+dbo.encoding_identifiers	source_id	Actor entity which provided the information	0
+dbo.encoding_ipr	encoding_id		0
+dbo.encoding_ipr	ipr_id	Intellectual property rights which attach to the encoding	0
+dbo.encoding_relationship_types	inverse_type_name_text		7
+dbo.encoding_relationship_types	relationship_type_id		9
+dbo.encoding_relationship_types	type_name_text		9
+dbo.encoding_relationships	note_text		0
+dbo.encoding_relationships	relationship_id		0
+dbo.encoding_relationships	relationship_type_id		0
+dbo.encoding_relationships	source_id		0
+dbo.encoding_relationships	target_id		0
+dbo.encoding_support	encoding_id		0
+dbo.encoding_support	support_id	Actor currently responsible for supporting or maintaining the encoding	0
+dbo.external_signature_types	signature_type_id		3
+dbo.external_signature_types	type_name_text		3
+dbo.external_signatures	external_signature_id		2021
+dbo.external_signatures	file_format_id		2021
+dbo.external_signatures	signature_text		2021
+dbo.external_signatures	signature_type_id		2021
+dbo.ffsf_fragments	byte_sequence_id		881
+dbo.ffsf_fragments	fragment_direction		2
+dbo.ffsf_fragments	maxoffset		128
+dbo.ffsf_fragments	minoffset		97
+dbo.ffsf_fragments	position_id		19
+dbo.ffsf_fragments	sequence_string		918
+dbo.ffsf_fragments	subsequence_num		4
+dbo.ffsf_shifts	byte_name		238
+dbo.ffsf_shifts	byte_sequence_id		1747
+dbo.ffsf_shifts	byte_shift		173
+dbo.ffsf_shifts	subsequence_num		7
+dbo.ffsf_subsequences	ROW_ID		2042
+dbo.ffsf_subsequences	byte_sequence_id		1747
+dbo.ffsf_subsequences	default_shift		90
+dbo.ffsf_subsequences	left_string		234
+dbo.ffsf_subsequences	max_seq_offset		71
+dbo.ffsf_subsequences	min_frag_length		65
+dbo.ffsf_subsequences	min_seq_offset		38
+dbo.ffsf_subsequences	right_string		524
+dbo.ffsf_subsequences	sequence_string		1300
+dbo.ffsf_subsequences	subsequence_num		7
+dbo.file_format_tool_link	format_id		1700
+dbo.file_format_tool_link	tool_id		1700
+dbo.file_format_tool_link	tool_priority		1700
+dbo.file_format_tool_link	tool_type_id		1700
+dbo.file_formats	binary_flag		817
+dbo.file_formats	disclosure_id	Level of public disclosure provided for the format specification	154
+dbo.file_formats	file_format_id	Internal system-generated ID	1686
+dbo.file_formats	format_name_text	Preferred name of the format	1686
+dbo.file_formats	format_text	Description of the main characteristics of the format	1686
+dbo.file_formats	last_updated_date	Date and time at which the information was last updated	1686
+dbo.file_formats	note_text	Informative note about the format	5
+dbo.file_formats	provenance_text	Informative note on the provenance	306
+dbo.file_formats	puid_type_id		1686
+dbo.file_formats	puid_value		1686
+dbo.file_formats	release_date	Date on which the format was released	103
+dbo.file_formats	source_date	Date and time at which the information was added to PRONOM	1686
+dbo.file_formats	source_id	Actor entity which provided the information	1686
+dbo.file_formats	version_text		929
+dbo.file_formats	withdrawn_date	Date on which support for the format was, or is due to be, withdrawn	1
+dbo.file_formats	withdrawn_flag		365
+dbo.format_aliases	alias_id		234
+dbo.format_aliases	file_format_id		234
+dbo.format_aliases	name_text	Alias by which the format is known	234
+dbo.format_aliases	version_text		174
+dbo.format_byte_order_link	byte_order_id		159
+dbo.format_byte_order_link	file_format_id		159
+dbo.format_compression_types	compression_id		30
+dbo.format_compression_types	file_format_id		30
+dbo.format_developers	developer_id		480
+dbo.format_developers	file_format_id		480
+dbo.format_disclosures	disclosure_id		3
+dbo.format_disclosures	disclosure_text		3
+dbo.format_documentation	document_id		103
+dbo.format_documentation	file_format_id		103
+dbo.format_encodings	encoding_id		1
+dbo.format_encodings	file_format_id		1
+dbo.format_environment	file_format_id		0
+dbo.format_environment	technical_environment_id		0
+dbo.format_families	family_text		6
+dbo.format_families	name_text		6
+dbo.format_families	note_text		0
+dbo.format_families	parent_family_id		0
+dbo.format_family_link	family_id		71
+dbo.format_family_link	file_format_id		71
+dbo.format_identifier_types	identifier_type_id		9
+dbo.format_identifier_types	identifier_type_text		9
+dbo.format_identifiers	file_format_id		738
+dbo.format_identifiers	identifier_id	Internal system-generated ID	738
+dbo.format_identifiers	identifier_text	Value of the identifier	738
+dbo.format_identifiers	identifier_type_id	Type of identifier	738
+dbo.format_identifiers	last_updated_date	Date and time at which the information was last updated	10
+dbo.format_identifiers	note_text	Informative note about the identifier	4
+dbo.format_identifiers	provenance_text	Informative note on the provenance	1
+dbo.format_identifiers	source_date	Date and time at which the information was added to PRONOM	10
+dbo.format_identifiers	source_id	Actor entity which provided the information	10
+dbo.format_internal_signature_link	file_format_id		1439
+dbo.format_internal_signature_link	signature_id		1439
+dbo.format_ipr	file_format_id		0
+dbo.format_ipr	ipr_id		0
+dbo.format_relationship_types	inverse_type_name_text		7
+dbo.format_relationship_types	relationship_type_id		9
+dbo.format_relationship_types	type_name_text		9
+dbo.format_relationships	note_text		3
+dbo.format_relationships	relationship_id		1264
+dbo.format_relationships	relationship_type_id		1264
+dbo.format_relationships	source_id		1264
+dbo.format_relationships	target_id		1264
+dbo.format_support	file_format_id		383
+dbo.format_support	support_id		383
+dbo.format_type_link	file_format_id		1362
+dbo.format_type_link	format_type_id		1362
+dbo.format_types	format_type_id		18
+dbo.format_types	format_type_text		18
+dbo.hardware	hardware_description_text		0
+dbo.hardware	hardware_id	Internal system-generated ID	0
+dbo.hardware	hardware_name_text	Preferred name of the hardware	0
+dbo.hardware	last_updated_date	Date and time at which the information was last updated	0
+dbo.hardware	provenance_text	Informative note on the provenance	0
+dbo.hardware	puid_type_id		0
+dbo.hardware	puid_value		0
+dbo.hardware	release_date	Date on which the hardware was released	0
+dbo.hardware	source_date	Date and time at which the information was added to PRONOM	0
+dbo.hardware	source_id	Actor entity which provided the information	0
+dbo.hardware	withdrawn_date	Date on which support for the hardware was, or is due to be, withdrawn	0
+dbo.hardware	withdrawn_flag		0
+dbo.hardware_aliases	alias_id		0
+dbo.hardware_aliases	description		0
+dbo.hardware_aliases	hardware_id		0
+dbo.hardware_aliases	name_text		0
+dbo.hardware_component	hardware_component_id		0
+dbo.hardware_component	hardware_component_name_text		0
+dbo.hardware_component	hardware_component_text		0
+dbo.hardware_component	hardware_id		0
+dbo.hardware_component	version_text		0
+dbo.hardware_developers	developer_id		0
+dbo.hardware_developers	hardware_id		0
+dbo.hardware_documentation	document_id		0
+dbo.hardware_documentation	hardware_id		0
+dbo.hardware_families	description		0
+dbo.hardware_families	family_id		0
+dbo.hardware_families	name_text		0
+dbo.hardware_family_link	family_id		0
+dbo.hardware_family_link	hardware_id		0
+dbo.hardware_images	base64_encoded	Image of the hardware product	0
+dbo.hardware_images	description_text		0
+dbo.hardware_images	file_name_text		0
+dbo.hardware_images	hardware_id		0
+dbo.hardware_images	image_id		0
+dbo.hardware_ipr	hardware_id		0
+dbo.hardware_ipr	ipr_id		0
+dbo.hardware_support	hardware_id		0
+dbo.hardware_support	support_id		0
+dbo.hardware_type	hardware_type_id		0
+dbo.hardware_type	hardware_type_text		0
+dbo.hardware_type_link	hardware_id		0
+dbo.hardware_type_link	hardware_type_id		0
+dbo.inherent_property	format_id		0
+dbo.inherent_property	high_risk		0
+dbo.inherent_property	property_id		0
+dbo.inherent_property	selected_option_id		0
+dbo.inherent_property_options	description		34
+dbo.inherent_property_options	inherent_property_option_id		34
+dbo.inherent_property_options	property_id		34
+dbo.inherent_property_options	risk_id		34
+dbo.inherent_property_risk_value	risk_id		6
+dbo.inherent_property_risk_value	risk_value		6
+dbo.instance_numerical_property_risk	high_risk		0
+dbo.instance_numerical_property_risk	instance_property_id		0
+dbo.instance_numerical_property_risk	max_value		0
+dbo.instance_numerical_property_risk	min_value		0
+dbo.instance_numerical_property_risk	numerical_risk_id		0
+dbo.instance_numerical_property_risk	risk_score		0
+dbo.instance_property	format_id		285
+dbo.instance_property	instance_property_id		285
+dbo.instance_property	property_id		285
+dbo.instance_property_measurement	instance_property_id		270
+dbo.instance_property_measurement	preference		270
+dbo.instance_property_measurement	tool_data_id		270
+dbo.instance_property_measurement	tool_id		270
+dbo.instance_property_risk	high_risk		0
+dbo.instance_property_risk	instance_property_id		0
+dbo.instance_property_risk	risk_score		0
+dbo.instance_property_risk	value		0
+dbo.internal_signatures	generic_flag		1458
+dbo.internal_signatures	last_updated_date		1458
+dbo.internal_signatures	note_text		1445
+dbo.internal_signatures	provenance_text		924
+dbo.internal_signatures	signature_id		1458
+dbo.internal_signatures	signature_name_text		1458
+dbo.internal_signatures	source_date		1458
+dbo.internal_signatures	source_id		1458
+dbo.invariances	invariance_id		4
+dbo.invariances	invariance_text		4
+dbo.ipr	ipr_date	Date of the IPR	1
+dbo.ipr	ipr_id	External identifier which applies to the rights entity	36
+dbo.ipr	ipr_type_id	Type of right described	36
+dbo.ipr	jurisdiction_id	Jurisdiction of the IPR	36
+dbo.ipr	last_updated_date	Date and time at which the information was last updated	2
+dbo.ipr	licence_details_text	Details of any license arrangements	1
+dbo.ipr	note_text	Informative note about the IPR	2
+dbo.ipr	provenance_text	Informative note on the provenance	1
+dbo.ipr	source_date	Date and time at which the information was added to PRONOM	2
+dbo.ipr	source_id	Actor entity which provided the information	2
+dbo.ipr_identifier_types	identifier_type_id		2
+dbo.ipr_identifier_types	identifier_type_text		2
+dbo.ipr_identifiers	identifier_id	Internal system-generated ID	0
+dbo.ipr_identifiers	identifier_text	Value of the identifier	0
+dbo.ipr_identifiers	identifier_type_id	Type of identifier	0
+dbo.ipr_identifiers	ipr_id		0
+dbo.ipr_identifiers	last_updated_date	Date and time at which the information was last updated	0
+dbo.ipr_identifiers	note_text	Informative note about the identifier	0
+dbo.ipr_identifiers	provenance_text	Informative note on the provenance	0
+dbo.ipr_identifiers	source_date	Date and time at which the information was added to PRONOM	0
+dbo.ipr_identifiers	source_id	Actor entity which provided the information	0
+dbo.ipr_jurisdictions	jurisdiction_id		242
+dbo.ipr_jurisdictions	jurisdiction_text		242
+dbo.ipr_owners	ipr_id	Owner of the IPR	34
+dbo.ipr_owners	owner_id		34
+dbo.ipr_types	ipr_type_id		3
+dbo.ipr_types	ipr_type_text		3
+dbo.languages	language_id		21
+dbo.languages	language_text		21
+dbo.lossiness	lossiness_id		2
+dbo.lossiness	lossiness_text		2
+dbo.migration_pathway	migration_pathway_id		41
+dbo.migration_pathway	notes		39
+dbo.migration_pathway	orig_file_format_id		41
+dbo.migration_pathway	target_file_format_id		34
+dbo.migration_pathway	tool_id		39
+dbo.migration_pathway_approval	approved_by		8
+dbo.migration_pathway_approval	approved_date		0
+dbo.migration_pathway_approval	current_pathway		5
+dbo.migration_pathway_approval	migration_pathway_id		72
+dbo.migration_pathway_approval	migration_pathway_type_id		72
+dbo.migration_pathway_property_approval	approved_by		0
+dbo.migration_pathway_property_approval	approved_date		0
+dbo.migration_pathway_property_approval	migration_pathway_property_verification_id		0
+dbo.migration_pathway_property_approval	migration_pathway_type_id		0
+dbo.migration_pathway_property_verification	migration_pathway_id		10
+dbo.migration_pathway_property_verification	migration_pathway_property_verification_id		10
+dbo.migration_pathway_property_verification	notes		10
+dbo.migration_pathway_property_verification	orig_instance_property_id		10
+dbo.migration_pathway_property_verification	target_instance_property_id		10
+dbo.migration_pathway_property_verification	variance		10
+dbo.migration_pathway_types	migration_pathway_type		3
+dbo.migration_pathway_types	migration_pathway_type_id		3
+dbo.operating_systems	operating_system_id		115
+dbo.operating_systems	operating_system_text		115
+dbo.position_types	position_type_id		5
+dbo.position_types	position_type_text		5
+dbo.process_documentation	document_id		0
+dbo.process_documentation	software_id_file_format_id_process_type_id		0
+dbo.process_types	process_type_id		5
+dbo.process_types	process_type_text		5
+dbo.processes	default_flag		227
+dbo.processes	file_format_id		2096
+dbo.processes	invariance_id		1172
+dbo.processes	last_updated_date		2096
+dbo.processes	note_text		0
+dbo.processes	process_type_id		2096
+dbo.processes	provenance_text		12
+dbo.processes	software_id		2096
+dbo.processes	source_date		2096
+dbo.processes	source_id		2096
+dbo.property	description		10
+dbo.property	name		36
+dbo.property	property_id		36
+dbo.puid_type	next_available_value		5
+dbo.puid_type	puid_type		10
+dbo.puid_type	puid_type_id		10
+dbo.reference_file_documentation	document_id		0
+dbo.reference_file_documentation	reference_file_id		0
+dbo.reference_file_identifier_types	identifier_type_id		2
+dbo.reference_file_identifier_types	identifier_type_text		2
+dbo.reference_file_identifiers	identifier_id	Internal system-generated ID	3
+dbo.reference_file_identifiers	identifier_text	Value of the identifier	3
+dbo.reference_file_identifiers	identifier_type_id	Type of identifier	3
+dbo.reference_file_identifiers	last_updated_date	Date and time at which the information was last updated	0
+dbo.reference_file_identifiers	note_text	Informative note about the identifier	0
+dbo.reference_file_identifiers	provenance_text	Informative note on the provenance	0
+dbo.reference_file_identifiers	reference_file_id		3
+dbo.reference_file_identifiers	source_date	Date and time at which the information was added to PRONOM	0
+dbo.reference_file_identifiers	source_id	Actor entity which provided the information	0
+dbo.reference_file_ipr	ipr_id		0
+dbo.reference_file_ipr	reference_file_id		0
+dbo.reference_files	file_Description_text		3
+dbo.reference_files	file_format_id		3
+dbo.reference_files	file_name_text		3
+dbo.reference_files	last_updated_date		3
+dbo.reference_files	note_text		0
+dbo.reference_files	provenance_text		0
+dbo.reference_files	reference_file_id		3
+dbo.reference_files	source_date		3
+dbo.reference_files	source_id		3
+dbo.required_hardware_for_hardware	hardware_id		0
+dbo.required_hardware_for_hardware	note		0
+dbo.required_hardware_for_hardware	qualifier_id		0
+dbo.required_hardware_for_hardware	qualifier_value		0
+dbo.required_hardware_for_hardware	req_hardware_id		0
+dbo.required_hardware_for_software	note		0
+dbo.required_hardware_for_software	qualifier_id		0
+dbo.required_hardware_for_software	qualifier_value		0
+dbo.required_hardware_for_software	req_hardware_id		0
+dbo.required_hardware_for_software	software_id		0
+dbo.required_software_for_hardware	hardware_id		0
+dbo.required_software_for_hardware	note		0
+dbo.required_software_for_hardware	qualifier_id		0
+dbo.required_software_for_hardware	qualifier_value		0
+dbo.required_software_for_hardware	req_software_id		0
+dbo.required_software_for_software	note		0
+dbo.required_software_for_software	qualifier_id		0
+dbo.required_software_for_software	qualifier_value		0
+dbo.required_software_for_software	req_software_id		0
+dbo.required_software_for_software	software_id		0
+dbo.requirement_qualifiers	Description		0
+dbo.requirement_qualifiers	qualifier_id		0
+dbo.signature_file_history	date_created		95
+dbo.signature_file_history	file_name_text		16
+dbo.signature_file_history	schema_version		95
+dbo.signature_file_history	version_id		95
+dbo.simple_search_full_text	aliases_text		181
+dbo.simple_search_full_text	description_text		1660
+dbo.simple_search_full_text	identifiers_text		1660
+dbo.simple_search_full_text	name_text		1660
+dbo.simple_search_full_text	simple_search_id		1660
+dbo.simple_search_full_text	source_id		1660
+dbo.simple_search_full_text	source_type		1660
+dbo.simple_search_full_text	version_text		1028
+dbo.software	last_updated_date	Date and time at which the information was last updated	272
+dbo.software	note_text	Informative note about the software	1
+dbo.software	provenance_text	Informative note on the provenance	1
+dbo.software	puid_type_id		272
+dbo.software	puid_value		272
+dbo.software	release_date		138
+dbo.software	service_pack_text	Service pack or patch level applied to the software	0
+dbo.software	software_id	Internal system-generated ID	272
+dbo.software	software_name_text	Preferred name of the software	272
+dbo.software	software_text	Description of the main characteristics of the software	272
+dbo.software	source_date	Date and time at which the information was added to PRONOM	272
+dbo.software	source_id		272
+dbo.software	version_text		267
+dbo.software	withdrawn_date		64
+dbo.software	withdrawn_flag		79
+dbo.software_aliases	alias_id		7
+dbo.software_aliases	name_text		7
+dbo.software_aliases	software_id		7
+dbo.software_aliases	version_text		7
+dbo.software_component	software_component_id	Internal system-generated ID	0
+dbo.software_component	software_component_name_text	Preferred name of the software	0
+dbo.software_component	software_component_text		0
+dbo.software_component	software_id	External identifier which applies to the software	0
+dbo.software_component	version_text		0
+dbo.software_developers	developer_id		274
+dbo.software_developers	software_id		274
+dbo.software_documentation	document_id		6
+dbo.software_documentation	software_id		6
+dbo.software_families	family_id		0
+dbo.software_families	family_text		0
+dbo.software_families	name_text		0
+dbo.software_families	note_text		0
+dbo.software_family_link	family_id		0
+dbo.software_family_link	software_id		0
+dbo.software_identifier_types	identifier_type_id		2
+dbo.software_identifier_types	identifier_type_text		2
+dbo.software_identifiers	identifier_id	Internal system-generated ID	0
+dbo.software_identifiers	identifier_text	Value of the identifier	0
+dbo.software_identifiers	identifier_type_id	Type of identifier	0
+dbo.software_identifiers	last_updated_date	Date and time at which the information was last updated	0
+dbo.software_identifiers	note_text	Informative note about the identifier	0
+dbo.software_identifiers	provenance_text	Informative note on the provenance	0
+dbo.software_identifiers	software_id		0
+dbo.software_identifiers	source_date	Date and time at which the information was added to PRONOM	0
+dbo.software_identifiers	source_id	Actor entity which provided the information	0
+dbo.software_images	base64_encoded		8
+dbo.software_images	description_text		7
+dbo.software_images	file_name_text		8
+dbo.software_images	image_id		8
+dbo.software_images	software_id		8
+dbo.software_ipr	ipr_id		158
+dbo.software_ipr	software_id		158
+dbo.software_languages	language_id		258
+dbo.software_languages	software_id		258
+dbo.software_maintainers	maintainer_id		265
+dbo.software_maintainers	software_id		265
+dbo.software_relationship_types	inverse_type_name_text		7
+dbo.software_relationship_types	relationship_type_id		9
+dbo.software_relationship_types	type_name_text		9
+dbo.software_relationships	note_text		0
+dbo.software_relationships	relationship_id		3
+dbo.software_relationships	relationship_type_id		3
+dbo.software_relationships	source_id		3
+dbo.software_relationships	target_id		3
+dbo.software_storage_media	software_id		260
+dbo.software_storage_media	storage_medium_id		260
+dbo.software_tools_link	software_id		0
+dbo.software_tools_link	tool_id		0
+dbo.software_type_link	software_id		265
+dbo.software_type_link	software_type_id		265
+dbo.software_types	software_type_id		21
+dbo.software_types	software_type_text		21
+dbo.storage_media	storage_medium_id	Internal system-generated ID	6
+dbo.storage_media	storage_medium_text	Description of the main characteristics of the medium	6
+dbo.tblXSL	data_text		16
+dbo.tblXSL	name_text		16
+dbo.technical_environment	description		0
+dbo.technical_environment	name		0
+dbo.technical_environment	technical_environment_id		0
+dbo.tool_data	tool_data_id		40
+dbo.tool_types	tool_type		6
+dbo.tool_types	tool_type_id		6
+dbo.tools	class_name		29
+dbo.tools	tool_description		29
+dbo.tools	tool_id		29
+dbo.tools	tool_name		29
+dbo.v_file_extensions	external_signature_id		2021
+dbo.v_file_extensions	file_format_id		1579
+dbo.v_file_extensions	signature_text		1090
+dbo.v_file_extensions	signature_type_id		1
+dbo.v_format_generic_internal_signature_link	file_format_id		2
+dbo.v_format_generic_internal_signature_link	signature_id		1
+dbo.v_format_puids	file_format_id		1686
+dbo.v_format_puids	identifier_text		1686
+dbo.v_format_specific_internal_signature_link	file_format_id		1179
+dbo.v_format_specific_internal_signature_link	signature_id		1437
+dbo.v_ipr_and_jurisdictions	ipr_date		1
+dbo.v_ipr_and_jurisdictions	ipr_id		36
+dbo.v_ipr_and_jurisdictions	ipr_type_id		2
+dbo.v_ipr_and_jurisdictions	ipr_type_text		2
+dbo.v_ipr_and_jurisdictions	jurisdiction_id		1
+dbo.v_ipr_and_jurisdictions	jurisdiction_text		1
+dbo.v_ipr_and_jurisdictions	last_updated_date		2
+dbo.v_ipr_and_jurisdictions	licence_details_text		1
+dbo.v_ipr_and_jurisdictions	note_text		2
+dbo.v_ipr_and_jurisdictions	provenance_text		1
+dbo.v_ipr_and_jurisdictions	source_date		2
+dbo.v_ipr_and_jurisdictions	source_id		2
+dbo.v_ipr_and_owners	ipr_id		36
+dbo.v_ipr_and_owners	ipr_type_text		2
+dbo.v_ipr_and_owners	licence_details_text		1
+dbo.v_ipr_and_owners	note_text		2
+dbo.v_ipr_and_owners	owner		34
+dbo.v_puids	component_id		1760
+dbo.v_puids	component_type		4
+dbo.v_puids	identifier_text		2003
+dbo.version	build		0
+dbo.version	changed_by		0
+dbo.version	major_version		0
+dbo.version	minor_version		0
+dbo.version	update_date		0
+dbo.xml_dtd_locations	xml_dtd_id		0
+dbo.xml_dtd_locations	xml_dtd_location_id		0
+dbo.xml_dtd_locations	xml_dtd_public_id		0
+dbo.xml_dtd_locations	xml_dtd_system_id		0
+dbo.xml_dtds	xml_dtd		0
+dbo.xml_dtds	xml_dtd_id		0
+dbo.xml_schema_locations	xml_schema_id		0
+dbo.xml_schema_locations	xml_schema_location		0
+dbo.xml_schema_locations	xml_schema_location_id		0
+dbo.xml_schema_locations	xml_schema_namespace		0
+dbo.xml_schemas	xml_schema_id		0
